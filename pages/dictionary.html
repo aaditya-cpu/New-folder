@@ -25,7 +25,7 @@
         <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
             <div class="dropdown">
                 <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-dark text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-hamburger"></i>
+                    <i class="fa fa-hamburger menuIcon"></i>
                 </a>
                 <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink" style="">
                     <li><a class="dropdown-item active" href="#" aria-current="page">Overview</a></li>
@@ -43,7 +43,7 @@
             <div class="d-flex align-items-center searchFlex justify-content-around">
                 <div class="cityBox container-md col-lg-5 p-1 d-md-flex flex-row  justify-content-around ">
                     <button type="button" class="btn btn-primary headTrigCity" data-bs-toggle="modal" data-bs-target="#cityModal" id="headTrigCity">
-                        Enter city manually
+                        Enter City
                       </button>
                 </div>
                 <form class="w-100 me-3">
@@ -68,11 +68,42 @@
         </div>
     </header>
 
-    <div class="container mt-3">
 
+    <div class="container-fluid  weatherBox d-flex flex-row justify-content-around">
+        <div class="col-2"><button class="hideTemp rounded-3 btn-dark" id="hideTemp">Hide</button></div>
+        <div class="col-2"><button class="showTemp rounded-3 btn-dark" id="showTemp">Check weather</button></div>
+        <div class="row weatherBoxInner container-lg">
+            <div class="col-sm-9 tempDetails flex-lg-column">
+                <div class="tempDetailsInner">
+                    <div class="tempC" id="tempC">
 
+                    </div>
+                    <div class="feelsLike" id="feelsLike">
 
+                    </div>
+                    <div class="tempText">
+
+                    </div>
+                    <div class="tempUV" id="tempUV">
+
+                    </div>
+                    <div class="locaDetails" id="locaDetails">
+                        <div class="lastUp" id="lastUp">
+
+                        </div>
+                        <div class="locat" id="locat">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-4 tempUtils">
+                <button class="rounded-5 btn-outline-md cityMan" id="cityMan">Pick city</button>
+            </div>
+        </div>
     </div>
+
 
     <!-- The Modal -->
     <div class="modal fade modal-fullscreen" id="cityModal">
@@ -108,6 +139,7 @@
     <div class="dadJokebox" id="dadJokebox">
         <h4 class="dadJoke text-center rounded " id="dadJoke"></h4>
     </div>
+
     <div class="container dictBox">
         <button class="reset btn btn-outline-dark text-uppercase" id="reset"> Reset </button>
         <div class="innerDictBox">
@@ -160,6 +192,7 @@
     </div>
 </body>
 <script src="../javascript/index.js"></script>
+<script src="../javascript/weather.js"></script>
 <script>
 </script>
 

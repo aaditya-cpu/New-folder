@@ -1,15 +1,26 @@
 :root {
-    --international-orange-aerospace: #fe5d26ff;
-    --gold-crayola: #f2c078ff;
-    --lemon-meringue: #faedcaff;
-    --tea-green: #c1dbb3ff;
-    --dark-sea-green: #7ebc89ff;
+    --rich-black-fogra: #031926ff;
+    --metallic-seaweed: #468189ff;
+    --green-sheen: #77aca2ff;
+    --opal: #9dbebbff;
+    --champagne: #f4e9cdff;
+    --international-orange-aerospace: #fe5d26;
+    --gold-crayola: #f2c078;
+    --lemon-meringue: #faedca;
+    --tea-green: #c1dbb3;
+    --dark-sea-green: #7ebc89;
+    --white: #fffdf9;
     --mar: 1%;
     --pad: 2%;
+    --medium: 600;
 }
 
 body {
-    background-color: var(--international-orange-aerospace);
+    background-color: var(--rich-black-fogra);
+}
+
+.menuIcon {
+    color: var(--white);
 }
 
 .dictBox {
@@ -34,16 +45,16 @@ body {
     width: 10em;
     margin: var(--mar);
     font-size: larger;
-    font-weight: 700;
+    font-weight: var(--medium);
     background-color: var(--dark-sea-green);
 }
 
 .engText,
 .espText,
 .engTraceText {
-    color: var(--international-orange-aerospace);
+    color: var(--rich-black-fogra);
     font-size: large;
-    font-weight: 700;
+    font-weight: var(--medium);
 }
 
 .dadJokebox {
@@ -107,15 +118,53 @@ body {
 
 .citySub {
     background-color: var(--dark-sea-green);
-    color: var(--international-orange-aerospace);
-    font-weight: 700;
+    color: var(--rich-black-fogra);
+    font-weight: var(--medium);
     text-transform: uppercase;
     border: var(--gold-crayola);
 }
 
 .citySub:hover {
-    background-color: var(--international-orange-aerospace);
+    background-color: var(--rich-black-fogra);
     color: var(--dark-sea-green);
     transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
     border: var(--gold-crayola);
+}
+
+.weatherBoxInner {
+    background-color: var(--metallic-seaweed);
+    margin: var(--mar);
+    padding: var(--pad);
+    border-radius: 10px;
+    opacity: .8;
+}
+
+.headTrigCity {
+    background-color: var(--opal);
+    color: var(--gold-crayola);
+    text-transform: uppercase;
+    font-weight: var(--medium);
+}
+
+.headTrigCity:hover,
+.hideTemp,
+.showTemp {
+    background-color: var(--lemon-meringue);
+    color: var(--rich-black-fogra);
+    text-transform: uppercase;
+    font-weight: var(--medium);
+}
+
+.hideTemp:hover,
+.showTemp:hover,
+.cityMan {
+    background-color: var(--gold-crayola);
+    text-transform: uppercase;
+    font-weight: var(--medium);
+}
+
+.tempDetailsInner {
+    color: var(--champagne);
+    font-size: medium;
+    font-weight: var(--medium);
 }

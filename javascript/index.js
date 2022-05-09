@@ -9,11 +9,12 @@ $(".lel").click(function(e) {
 // 0.1 Variables/declaration
 var trigger;
 let dadStats;
-var coords
-
+var coords;
+let tempData;
 let dadJoke = " ";
 $(document).ready(function() {
     $('.headTrigCity').hide();
+    $(".showTemp").hide();
     $('.reset').hide();
     geneAPI();
     getLocation();
@@ -58,6 +59,7 @@ function getLocation() {
         $('.headTrigCity').show("slow");
         alert("Achievement Unlocked!! You can now manually enter the city!!");
     }
+    return coords;
 }
 
 
@@ -68,8 +70,10 @@ function showPosition(position) {
     let longi = position.coords.longitude;
 
     coords = lati + ',' + longi;
-    if (coords !== " " || coords !== " " || coords !== 0) {
+    if (coords) {
         console.log("position alive");
+        console.log(coords);
+        getWeat(coords);
     } else {
 
         $('.headTrigCity').show("slow");
@@ -128,9 +132,20 @@ $(".reset").click(function() {
 });
 
 
+$(".cityMan").click(function() {
+    $('.headTrigCity').show("slow");
+});
+$(".hideTemp").click(function() {
+    $(".weatherBoxInner").hide(1500);
+    $(".showTemp").show(1200);
 
 
+});
+$(".showTemp").click(function() {
+    $(".weatherBoxInner").show(1500);
+    $(".hideTemp").hide(1200);
 
+});
 
 
 
@@ -171,19 +186,30 @@ function geneAPI() {
 
 
 
-function getWeat() {
-    var xhr = new XMLHttpRequest();
-    xhr.withCredentials = true;
+function getWeat(coords) {
+    var settings = {
+        "url": "http://api.weatherapi.com/v1/current.json?key=e29761bd6ad049a68f975205220602&q=" + coords + "&aqi=yes",
+        "method": "GET",
+        "timeout": 0,
+        "headers": {
+            "Access-Control-Allow-Credentials": "true",
+            "Access-Control-Allow-Headers": "X-PINGOTHER, Content-Type",
+            "Access-Control-Allow-Methods": "GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS",
+            "Access-Control-Allow-Origin": "*"
+        },
+    };
 
-    xhr.addEventListener("readystatechange", function() {
-        if (this.readyState === 4) {
-            console.log(this.responseText);
-        }
+    $.ajax(settings).done(function(response) {
+        tempData = response;
+        $('.tempC').append("<p> Temprature : " + tempData.current.temp_c + " Cel</p>");
+        $('.feelsLike').append("<p> Feels Like : " + tempData.current.feelslike_c + " </p>");
+        $('.tempText').append("<p> Conditions : " + tempData.current.condition.text + " </p>");
+        $('.tempUV').append("<p> UV index : " + tempData.current.uv + "</p>");
+        $('.lastUp').append("<p> Last Updated on : " + tempData.current.last_updated + "</p>");
+        $('.locat').append("<p> Location : " + tempData.location.name + ' ,' + tempData.location.region + "</p>");
+        $('.locat').append("<p> Country : " + tempData.location.country + "</p>");
+
     });
-
-    xhr.open("GET", "http://api.weatherapi.com/v1/forecast.json?key=e29761bd6ad049a68f975205220602&q=%2023.1755427,75.7872723&days=2&aqi=yes&alerts=yes");
-
-    xhr.send();
 }
 
 // -- -- -- -- -- -- -- -- -- -
