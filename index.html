@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Dictionary</title>
+
+</head>
+
+
+
+<!-- Custom styles for this template -->
+
+<body>
+
+    <header class="py-3 mb-3 border-bottom">
+        <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
+            <div class="dropdown">
+                <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-dark text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-hamburger"></i>
+                </a>
+                <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink" style="">
+                    <li><a class="dropdown-item active" href="#" aria-current="page">Overview</a></li>
+                    <li><a class="dropdown-item" href="#">Inventory</a></li>
+                    <li><a class="dropdown-item" href="#">Customers</a></li>
+                    <li><a class="dropdown-item" href="#">Products</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Reports</a></li>
+                    <li><a class="dropdown-item" href="#">Analytics</a></li>
+                </ul>
+            </div>
+
+            <div class="d-flex align-items-center">
+                <form class="w-100 me-3">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="flex-shrink-0 dropdown">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" class="rounded-circle" width="32" height="32">
+                    </a>
+                    <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="dadJokebox" id="dadJokebox">
+        <h4 class="dadJoke text-center rounded " id="dadJoke"></h4>
+    </div>
+    <div class="content"><button class="lel" id="dict" onClick="location.href='./pages/dictionary.html'" type="button">Dictionary</button></div>
+
+</body>
+
+<script src="./javascript/index.js"></script>
+
+
+</html>

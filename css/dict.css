@@ -1,0 +1,121 @@
+:root {
+    --international-orange-aerospace: #fe5d26ff;
+    --gold-crayola: #f2c078ff;
+    --lemon-meringue: #faedcaff;
+    --tea-green: #c1dbb3ff;
+    --dark-sea-green: #7ebc89ff;
+    --mar: 1%;
+    --pad: 2%;
+}
+
+body {
+    background-color: var(--international-orange-aerospace);
+}
+
+.dictBox {
+    background-color: var(--gold-crayola);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* margin: ; */
+    padding: var(--pad);
+    align-items: center;
+    justify-content: center;
+}
+
+.innerDictBox {
+    width: max-content;
+    height: fit-content;
+}
+
+.dictTrig,
+.traceTrig,
+.reset {
+    width: 10em;
+    margin: var(--mar);
+    font-size: larger;
+    font-weight: 700;
+    background-color: var(--dark-sea-green);
+}
+
+.engText,
+.espText,
+.engTraceText {
+    color: var(--international-orange-aerospace);
+    font-size: large;
+    font-weight: 700;
+}
+
+.dadJokebox {
+    background-color: var(--lemon-meringue);
+    text-transform: uppercase;
+    font-size: 4em;
+    margin: var(--mar);
+    padding: var(--pad);
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.rounded-4 {
+    border-radius: .5rem;
+}
+
+.rounded-5 {
+    border-radius: .75rem;
+}
+
+.rounded-6 {
+    border-radius: 1rem;
+}
+
+.modal-sheet .modal-dialog {
+    width: 380px;
+    transition: bottom .75s ease-in-out;
+}
+
+.modal-sheet .modal-footer {
+    padding-bottom: 2rem;
+}
+
+.modal-alert .modal-dialog {
+    width: 380px;
+}
+
+.border-right {
+    border-right: 1px solid #eee;
+}
+
+.modal-tour .modal-dialog {
+    width: 380px;
+    text-transform: capitalize;
+}
+
+.modBod {
+    background-color: var(--lemon-meringue);
+}
+
+.citySub {
+    background-color: var(--dark-sea-green);
+    color: var(--international-orange-aerospace);
+    font-weight: 700;
+    text-transform: uppercase;
+    border: var(--gold-crayola);
+}
+
+.citySub:hover {
+    background-color: var(--international-orange-aerospace);
+    color: var(--dark-sea-green);
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    border: var(--gold-crayola);
+}
