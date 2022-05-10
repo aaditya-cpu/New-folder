@@ -12,6 +12,7 @@ let dadStats;
 var coords;
 let tempData;
 let dadJoke = " ";
+let cityInp;
 $(document).ready(function() {
     $('.headTrigCity').hide();
     $(".showTemp").hide();
@@ -47,7 +48,11 @@ function randNum(po) {
     }
 
 }
-
+//mi data
+var ret = {
+    Id: randNum(9).trim(),
+    location: ''
+};
 // 0.3 to get location
 
 
@@ -146,15 +151,15 @@ $(".showTemp").click(function() {
     $(".hideTemp").hide(1200);
 
 });
-
+$(".citySub").click(function() {
+    cityInp = $(".cityInp").val();
+    getWeat(cityInp);
+});
 
 
 // 3. Api Triggers and funbstions 
 // 3.1 Ajax call to joke API atleast
-var ret = {
-    Id: randNum(9).trim(),
 
-};
 
 function geneAPI() {
     var url = "https://icanhazdadjoke.com/";
@@ -201,19 +206,30 @@ function getWeat(coords) {
 
     $.ajax(settings).done(function(response) {
         tempData = response;
+        $('.tempC').empty();
         $('.tempC').append("<p> Temprature : " + tempData.current.temp_c + " Cel</p>");
+        $('.feelsLike').empty();
         $('.feelsLike').append("<p> Feels Like : " + tempData.current.feelslike_c + " </p>");
+        $('.tempText').empty();
         $('.tempText').append("<p> Conditions : " + tempData.current.condition.text + " </p>");
+        $('.tempUV').empty();
         $('.tempUV').append("<p> UV index : " + tempData.current.uv + "</p>");
+        $('.lastUp').empty();
         $('.lastUp').append("<p> Last Updated on : " + tempData.current.last_updated + "</p>");
+        $('.locat').empty();
         $('.locat').append("<p> Location : " + tempData.location.name + ' ,' + tempData.location.region + "</p>");
         $('.locat').append("<p> Country : " + tempData.location.country + "</p>");
 
+        ret.locationName = tempData.location.name;
+        ret.locationRegion = tempData.location.region;
+        ret.locationCountry = tempData.location.country;
+        ret.locationTempC = tempData.current.temp_c;
     });
+
 }
 
 // -- -- -- -- -- -- -- -- -- -
-function Analy(dadStats, dadJoke) {
+function Analy() {
 
 }
 
