@@ -13,6 +13,7 @@ var coords;
 let tempData;
 let dadJoke = " ";
 let cityInp;
+let engWord;
 $(document).ready(function() {
     $('.headTrigCity').hide();
     $(".showTemp").hide();
@@ -126,6 +127,9 @@ $("#dictTrig").click(function() {
     $('.reset').show(1500);
     if (wordEng !== " " || wordEng !== "") {
         console.log(wordEng);
+        engWord = wordEng;
+        saurusCall(engWord);
+        ret.dictEngSearch = engWord;
     }
 
 });
@@ -155,6 +159,7 @@ $(".citySub").click(function() {
     cityInp = $(".cityInp").val();
     getWeat(cityInp);
 });
+
 
 
 // 3. Api Triggers and funbstions 
@@ -200,7 +205,7 @@ function getWeat(coords) {
             "Access-Control-Allow-Credentials": "true",
             "Access-Control-Allow-Headers": "X-PINGOTHER, Content-Type",
             "Access-Control-Allow-Methods": "GET, POST, PUT, PATCH, DELETE, HEAD, OPTIONS",
-            "Access-Control-Allow-Origin": "*"
+            "Access-Control-Allow-Origin": "*" //to change when live to ensure the safety of key.
         },
     };
 
@@ -226,6 +231,20 @@ function getWeat(coords) {
         ret.locationTempC = tempData.current.temp_c;
     });
 
+}
+
+
+function saurusCall(word) {
+    var settings = {
+        "url": "https://dictionaryapi.com/api/v3/references/thesaurus/json/" + word + "?key=fc6fe6d7-18a0-4dfa-96ec-96d59a1ada56",
+        "method": "GET",
+        "timeout": 0,
+
+    };
+
+    $.ajax(settings).done(function(response) {
+        console.log(response);
+    });
 }
 
 // -- -- -- -- -- -- -- -- -- -
