@@ -1,0 +1,4176 @@
+[{
+        "meta": {
+            "id": "little",
+            "uuid": "8c1b7fcb-9066-475b-8afd-06cc341c279b",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "65b03a0c-7c6e-47ef-ad06-89c309cc813d",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "little",
+                "least",
+                "less",
+                "lesser",
+                "littleness",
+                "littlenesses",
+                "littler",
+                "littlest"
+            ],
+            "syns": [
+                [
+                    "low",
+                    "low-lying",
+                    "low-slung",
+                    "sawed-off",
+                    "short"
+                ],
+                [
+                    "fiddling",
+                    "foolish",
+                    "frivolous",
+                    "incidental",
+                    "inconsequential",
+                    "inconsiderable",
+                    "insignificant",
+                    "Mickey Mouse",
+                    "minor",
+                    "minute",
+                    "negligible",
+                    "nugatory",
+                    "slight",
+                    "small",
+                    "small-fry",
+                    "trifling",
+                    "trivial",
+                    "unimportant"
+                ],
+                [
+                    "illiberal",
+                    "insular",
+                    "Lilliputian",
+                    "narrow",
+                    "narrow-minded",
+                    "parochial",
+                    "petty",
+                    "picayune",
+                    "provincial",
+                    "sectarian",
+                    "small",
+                    "small-minded"
+                ],
+                [
+                    "brief",
+                    "fast",
+                    "short"
+                ],
+                [
+                    "bantam",
+                    "diminutive",
+                    "dinky",
+                    "dwarfish",
+                    "fine",
+                    "half-pint",
+                    "Lilliputian",
+                    "pint-size",
+                    "pocket",
+                    "pocket-size",
+                    "puny",
+                    "pygmy",
+                    "shrimpy",
+                    "slight",
+                    "small",
+                    "smallish",
+                    "subnormal",
+                    "toylike",
+                    "undersized"
+                ]
+            ],
+            "ants": [
+                [
+                    "altitudinous",
+                    "high",
+                    "lofty",
+                    "tall",
+                    "towering"
+                ],
+                [
+                    "big",
+                    "consequential",
+                    "eventful",
+                    "important",
+                    "major",
+                    "material",
+                    "meaningful",
+                    "momentous",
+                    "significant",
+                    "substantial",
+                    "unfrivolous",
+                    "weighty"
+                ],
+                [
+                    "broad-minded",
+                    "catholic",
+                    "cosmopolitan",
+                    "liberal",
+                    "open",
+                    "open-minded",
+                    "receptive",
+                    "tolerant"
+                ],
+                [
+                    "extended",
+                    "far",
+                    "great",
+                    "lengthy",
+                    "long",
+                    "long-drawn-out",
+                    "long-lived"
+                ],
+                [
+                    "big",
+                    "biggish",
+                    "considerable",
+                    "goodly",
+                    "grand",
+                    "great",
+                    "handsome",
+                    "husky",
+                    "king-size",
+                    "large",
+                    "largish",
+                    "outsize",
+                    "overscale",
+                    "oversize",
+                    "sizable",
+                    "substantial",
+                    "tidy",
+                    "whacking",
+                    "whopping"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little"
+        },
+        "fl": "adjective",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "1",
+                            "dt": [
+                                [
+                                    "text",
+                                    "having relatively little height "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "there was a {it}little{/it} hedge separating the two lawns"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "low"
+                                    },
+                                    {
+                                        "wd": "low-lying"
+                                    },
+                                    {
+                                        "wd": "low-slung"
+                                    },
+                                    {
+                                        "wd": "sawed-off"
+                                    },
+                                    {
+                                        "wd": "short"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "dwarf"
+                                    },
+                                    {
+                                        "wd": "dwarfish"
+                                    }
+                                ],
+                                [{
+                                        "wd": "compact"
+                                    },
+                                    {
+                                        "wd": "petite"
+                                    },
+                                    {
+                                        "wd": "slight"
+                                    }
+                                ],
+                                [{
+                                        "wd": "diminutive"
+                                    },
+                                    {
+                                        "wd": "half-pint"
+                                    },
+                                    {
+                                        "wd": "pint-size",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "pint-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "pocket"
+                                    },
+                                    {
+                                        "wd": "pocket-size",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "pocket-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "pygmy"
+                                    },
+                                    {
+                                        "wd": "small"
+                                    },
+                                    {
+                                        "wd": "smallish"
+                                    }
+                                ],
+                                [{
+                                        "wd": "bantam"
+                                    },
+                                    {
+                                        "wd": "bitty"
+                                    },
+                                    {
+                                        "wd": "dinky"
+                                    },
+                                    {
+                                        "wd": "mini"
+                                    },
+                                    {
+                                        "wd": "miniature"
+                                    },
+                                    {
+                                        "wd": "minimized"
+                                    },
+                                    {
+                                        "wd": "minute"
+                                    },
+                                    {
+                                        "wd": "puny"
+                                    },
+                                    {
+                                        "wd": "teeny"
+                                    },
+                                    {
+                                        "wd": "teeny-weeny"
+                                    },
+                                    {
+                                        "wd": "tiny"
+                                    },
+                                    {
+                                        "wd": "undersized",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "undersize"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "wee"
+                                    }
+                                ],
+                                [{
+                                        "wd": "dumpy"
+                                    },
+                                    {
+                                        "wd": "flat"
+                                    },
+                                    {
+                                        "wd": "scrubby"
+                                    },
+                                    {
+                                        "wd": "squat"
+                                    },
+                                    {
+                                        "wd": "squatty"
+                                    },
+                                    {
+                                        "wd": "stubby"
+                                    },
+                                    {
+                                        "wd": "stumpy"
+                                    },
+                                    {
+                                        "wd": "stunted"
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "elevated"
+                                    },
+                                    {
+                                        "wd": "lifted"
+                                    },
+                                    {
+                                        "wd": "raised"
+                                    },
+                                    {
+                                        "wd": "uplifted"
+                                    },
+                                    {
+                                        "wd": "upswept"
+                                    }
+                                ],
+                                [{
+                                        "wd": "high-rise"
+                                    },
+                                    {
+                                        "wd": "statuesque"
+                                    }
+                                ],
+                                [{
+                                        "wd": "gangling"
+                                    },
+                                    {
+                                        "wd": "gangly"
+                                    },
+                                    {
+                                        "wd": "lanky"
+                                    },
+                                    {
+                                        "wd": "rangy"
+                                    }
+                                ],
+                                [{
+                                        "wd": "big"
+                                    },
+                                    {
+                                        "wd": "bulky"
+                                    },
+                                    {
+                                        "wd": "hefty"
+                                    },
+                                    {
+                                        "wd": "hulking"
+                                    },
+                                    {
+                                        "wd": "large"
+                                    },
+                                    {
+                                        "wd": "largish"
+                                    },
+                                    {
+                                        "wd": "outsize",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "outsized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "oversize",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "oversized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "sizable",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "sizeable"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "voluminous"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "altitudinous"
+                                    },
+                                    {
+                                        "wd": "high"
+                                    },
+                                    {
+                                        "wd": "lofty"
+                                    },
+                                    {
+                                        "wd": "tall"
+                                    },
+                                    {
+                                        "wd": "towering"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ],
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "2",
+                            "dt": [
+                                [
+                                    "text",
+                                    "lacking importance "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "there were just a few {it}little{/it} details left to take care of"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "fiddling"
+                                    },
+                                    {
+                                        "wd": "foolish"
+                                    },
+                                    {
+                                        "wd": "frivolous"
+                                    },
+                                    {
+                                        "wd": "incidental"
+                                    },
+                                    {
+                                        "wd": "inconsequential"
+                                    },
+                                    {
+                                        "wd": "inconsiderable"
+                                    },
+                                    {
+                                        "wd": "insignificant"
+                                    },
+                                    {
+                                        "wd": "Mickey Mouse"
+                                    },
+                                    {
+                                        "wd": "minor"
+                                    },
+                                    {
+                                        "wd": "minute"
+                                    },
+                                    {
+                                        "wd": "negligible"
+                                    },
+                                    {
+                                        "wd": "nugatory"
+                                    },
+                                    {
+                                        "wd": "slight"
+                                    },
+                                    {
+                                        "wd": "small"
+                                    },
+                                    {
+                                        "wd": "small-fry"
+                                    },
+                                    {
+                                        "wd": "trifling"
+                                    },
+                                    {
+                                        "wd": "trivial"
+                                    },
+                                    {
+                                        "wd": "unimportant"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "jerkwater"
+                                    },
+                                    {
+                                        "wd": "one-horse"
+                                    }
+                                ],
+                                [{
+                                        "wd": "nickel-and-dime"
+                                    },
+                                    {
+                                        "wd": "paltry"
+                                    },
+                                    {
+                                        "wd": "petty"
+                                    },
+                                    {
+                                        "wd": "small-time"
+                                    },
+                                    {
+                                        "wd": "worthless"
+                                    }
+                                ],
+                                [{
+                                        "wd": "anonymous"
+                                    },
+                                    {
+                                        "wd": "nameless"
+                                    },
+                                    {
+                                        "wd": "obscure"
+                                    },
+                                    {
+                                        "wd": "uncelebrated"
+                                    },
+                                    {
+                                        "wd": "unknown"
+                                    }
+                                ]
+                            ],
+                            "phrase_list": [
+                                [{
+                                    "wd": "neither here nor there"
+                                }]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "decisive"
+                                    },
+                                    {
+                                        "wd": "fatal"
+                                    },
+                                    {
+                                        "wd": "fateful"
+                                    }
+                                ],
+                                [{
+                                        "wd": "chief"
+                                    },
+                                    {
+                                        "wd": "dominant"
+                                    },
+                                    {
+                                        "wd": "overbearing"
+                                    },
+                                    {
+                                        "wd": "overmastering"
+                                    },
+                                    {
+                                        "wd": "overriding"
+                                    },
+                                    {
+                                        "wd": "principal"
+                                    }
+                                ],
+                                [{
+                                        "wd": "distinctive"
+                                    },
+                                    {
+                                        "wd": "exceptional"
+                                    },
+                                    {
+                                        "wd": "impressive"
+                                    },
+                                    {
+                                        "wd": "outstanding"
+                                    },
+                                    {
+                                        "wd": "prominent"
+                                    },
+                                    {
+                                        "wd": "remarkable"
+                                    }
+                                ],
+                                [{
+                                        "wd": "valuable"
+                                    },
+                                    {
+                                        "wd": "worthwhile"
+                                    },
+                                    {
+                                        "wd": "worthy"
+                                    }
+                                ],
+                                [{
+                                        "wd": "distinguished"
+                                    },
+                                    {
+                                        "wd": "eminent"
+                                    },
+                                    {
+                                        "wd": "great"
+                                    },
+                                    {
+                                        "wd": "illustrious"
+                                    },
+                                    {
+                                        "wd": "preeminent"
+                                    },
+                                    {
+                                        "wd": "prestigious"
+                                    }
+                                ],
+                                [{
+                                        "wd": "famous"
+                                    },
+                                    {
+                                        "wd": "notorious"
+                                    },
+                                    {
+                                        "wd": "renowned"
+                                    }
+                                ],
+                                [{
+                                        "wd": "all-important"
+                                    },
+                                    {
+                                        "wd": "basic"
+                                    },
+                                    {
+                                        "wd": "essential"
+                                    },
+                                    {
+                                        "wd": "fundamental"
+                                    },
+                                    {
+                                        "wd": "key"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "big"
+                                    },
+                                    {
+                                        "wd": "consequential"
+                                    },
+                                    {
+                                        "wd": "eventful"
+                                    },
+                                    {
+                                        "wd": "important"
+                                    },
+                                    {
+                                        "wd": "major"
+                                    },
+                                    {
+                                        "wd": "material"
+                                    },
+                                    {
+                                        "wd": "meaningful"
+                                    },
+                                    {
+                                        "wd": "momentous"
+                                    },
+                                    {
+                                        "wd": "significant"
+                                    },
+                                    {
+                                        "wd": "substantial"
+                                    },
+                                    {
+                                        "wd": "unfrivolous"
+                                    },
+                                    {
+                                        "wd": "weighty"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ],
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "3",
+                            "dt": [
+                                [
+                                    "text",
+                                    "not broad or open in views or opinions "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "{it}little{/it}-minded people who dislike the fact that human society is always progressing"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "illiberal"
+                                    },
+                                    {
+                                        "wd": "insular"
+                                    },
+                                    {
+                                        "wd": "Lilliputian"
+                                    },
+                                    {
+                                        "wd": "narrow"
+                                    },
+                                    {
+                                        "wd": "narrow-minded"
+                                    },
+                                    {
+                                        "wd": "parochial"
+                                    },
+                                    {
+                                        "wd": "petty"
+                                    },
+                                    {
+                                        "wd": "picayune"
+                                    },
+                                    {
+                                        "wd": "provincial"
+                                    },
+                                    {
+                                        "wd": "sectarian"
+                                    },
+                                    {
+                                        "wd": "small"
+                                    },
+                                    {
+                                        "wd": "small-minded"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "inflexible"
+                                    },
+                                    {
+                                        "wd": "ironbound"
+                                    },
+                                    {
+                                        "wd": "obdurate"
+                                    },
+                                    {
+                                        "wd": "obstinate"
+                                    },
+                                    {
+                                        "wd": "rigid"
+                                    },
+                                    {
+                                        "wd": "set"
+                                    },
+                                    {
+                                        "wd": "stubborn"
+                                    },
+                                    {
+                                        "wd": "unyielding"
+                                    },
+                                    {
+                                        "wd": "wrongheaded"
+                                    }
+                                ],
+                                [{
+                                        "wd": "bigoted"
+                                    },
+                                    {
+                                        "wd": "intolerant"
+                                    }
+                                ],
+                                [{
+                                        "wd": "biased"
+                                    },
+                                    {
+                                        "wd": "discriminating"
+                                    },
+                                    {
+                                        "wd": "discriminatory"
+                                    },
+                                    {
+                                        "wd": "jaundiced"
+                                    },
+                                    {
+                                        "wd": "one-sided"
+                                    },
+                                    {
+                                        "wd": "partial"
+                                    },
+                                    {
+                                        "wd": "partisan"
+                                    },
+                                    {
+                                        "wd": "prejudiced"
+                                    }
+                                ],
+                                [{
+                                        "wd": "brassbound"
+                                    },
+                                    {
+                                        "wd": "hidebound"
+                                    },
+                                    {
+                                        "wd": "old-fashioned"
+                                    },
+                                    {
+                                        "wd": "reactionary"
+                                    },
+                                    {
+                                        "wd": "stodgy"
+                                    },
+                                    {
+                                        "wd": "straitlaced",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "straightlaced"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "stuffy"
+                                    }
+                                ],
+                                [{
+                                        "wd": "dogmatic",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "dogmatical"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "opinionated"
+                                    },
+                                    {
+                                        "wd": "opinionative"
+                                    }
+                                ],
+                                [{
+                                    "wd": "limited"
+                                }],
+                                [{
+                                        "wd": "hick"
+                                    },
+                                    {
+                                        "wd": "unsophisticated"
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "impartial"
+                                    },
+                                    {
+                                        "wd": "nonpartisan"
+                                    },
+                                    {
+                                        "wd": "objective"
+                                    },
+                                    {
+                                        "wd": "unbiased"
+                                    },
+                                    {
+                                        "wd": "unprejudiced"
+                                    }
+                                ],
+                                [{
+                                    "wd": "freethinking"
+                                }]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "broad-minded"
+                                    },
+                                    {
+                                        "wd": "catholic"
+                                    },
+                                    {
+                                        "wd": "cosmopolitan"
+                                    },
+                                    {
+                                        "wd": "liberal"
+                                    },
+                                    {
+                                        "wd": "open"
+                                    },
+                                    {
+                                        "wd": "open-minded"
+                                    },
+                                    {
+                                        "wd": "receptive"
+                                    },
+                                    {
+                                        "wd": "tolerant"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ],
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "4",
+                            "dt": [
+                                [
+                                    "text",
+                                    "not lasting for a considerable time "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "let's take a {it}little{/it} pause to relax"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "brief"
+                                    },
+                                    {
+                                        "wd": "fast"
+                                    },
+                                    {
+                                        "wd": "short"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                    "wd": "shortish"
+                                }],
+                                [{
+                                        "wd": "abbreviated"
+                                    },
+                                    {
+                                        "wd": "abridged"
+                                    },
+                                    {
+                                        "wd": "curtailed"
+                                    },
+                                    {
+                                        "wd": "cut-back"
+                                    },
+                                    {
+                                        "wd": "shortened"
+                                    },
+                                    {
+                                        "wd": "syncopated"
+                                    }
+                                ],
+                                [{
+                                        "wd": "compact"
+                                    },
+                                    {
+                                        "wd": "condensed"
+                                    }
+                                ],
+                                [{
+                                        "wd": "abrupt"
+                                    },
+                                    {
+                                        "wd": "sudden"
+                                    }
+                                ],
+                                [{
+                                        "wd": "ephemeral"
+                                    },
+                                    {
+                                        "wd": "fleeting"
+                                    },
+                                    {
+                                        "wd": "momentary"
+                                    },
+                                    {
+                                        "wd": "short-lived"
+                                    },
+                                    {
+                                        "wd": "transient"
+                                    },
+                                    {
+                                        "wd": "transitory"
+                                    }
+                                ],
+                                [{
+                                    "wd": "impermanent"
+                                }],
+                                [{
+                                        "wd": "compendious"
+                                    },
+                                    {
+                                        "wd": "concise"
+                                    },
+                                    {
+                                        "wd": "crisp"
+                                    },
+                                    {
+                                        "wd": "epigrammatic"
+                                    },
+                                    {
+                                        "wd": "laconic"
+                                    },
+                                    {
+                                        "wd": "pithy"
+                                    },
+                                    {
+                                        "wd": "succinct"
+                                    },
+                                    {
+                                        "wd": "summary"
+                                    },
+                                    {
+                                        "wd": "terse"
+                                    }
+                                ],
+                                [{
+                                        "wd": "short-range"
+                                    },
+                                    {
+                                        "wd": "short-term"
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "endless"
+                                    },
+                                    {
+                                        "wd": "everlasting"
+                                    },
+                                    {
+                                        "wd": "interminable"
+                                    },
+                                    {
+                                        "wd": "persistent"
+                                    },
+                                    {
+                                        "wd": "unending"
+                                    }
+                                ],
+                                [{
+                                        "wd": "longish"
+                                    },
+                                    {
+                                        "wd": "overlong"
+                                    },
+                                    {
+                                        "wd": "prolonged"
+                                    },
+                                    {
+                                        "wd": "protracted"
+                                    }
+                                ],
+                                [{
+                                    "wd": "permanent"
+                                }],
+                                [{
+                                        "wd": "enlarged"
+                                    },
+                                    {
+                                        "wd": "expanded"
+                                    },
+                                    {
+                                        "wd": "supplemented"
+                                    }
+                                ],
+                                [{
+                                        "wd": "long-range"
+                                    },
+                                    {
+                                        "wd": "long-term"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "extended"
+                                    },
+                                    {
+                                        "wd": "far"
+                                    },
+                                    {
+                                        "wd": "great"
+                                    },
+                                    {
+                                        "wd": "lengthy"
+                                    },
+                                    {
+                                        "wd": "long"
+                                    },
+                                    {
+                                        "wd": "long-drawn-out",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "long-drawn"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "long-lived"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ],
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "5",
+                            "dt": [
+                                [
+                                    "text",
+                                    "of a size that is less than average "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "the petting zoo has a {it}little{/it} horse in addition to all of the goats and sheep"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "bantam"
+                                    },
+                                    {
+                                        "wd": "diminutive"
+                                    },
+                                    {
+                                        "wd": "dinky"
+                                    },
+                                    {
+                                        "wd": "dwarfish"
+                                    },
+                                    {
+                                        "wd": "fine"
+                                    },
+                                    {
+                                        "wd": "half-pint"
+                                    },
+                                    {
+                                        "wd": "Lilliputian"
+                                    },
+                                    {
+                                        "wd": "pint-size",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "pint-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "pocket"
+                                    },
+                                    {
+                                        "wd": "pocket-size",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "pocket-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "puny"
+                                    },
+                                    {
+                                        "wd": "pygmy"
+                                    },
+                                    {
+                                        "wd": "shrimpy"
+                                    },
+                                    {
+                                        "wd": "slight"
+                                    },
+                                    {
+                                        "wd": "small"
+                                    },
+                                    {
+                                        "wd": "smallish"
+                                    },
+                                    {
+                                        "wd": "subnormal"
+                                    },
+                                    {
+                                        "wd": "toylike"
+                                    },
+                                    {
+                                        "wd": "undersized",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "undersize"
+                                        }]
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "dwarf"
+                                    },
+                                    {
+                                        "wd": "toy"
+                                    }
+                                ],
+                                [{
+                                        "wd": "runtish"
+                                    },
+                                    {
+                                        "wd": "runty"
+                                    },
+                                    {
+                                        "wd": "scrubby"
+                                    },
+                                    {
+                                        "wd": "stunted"
+                                    }
+                                ],
+                                [{
+                                        "wd": "bitty"
+                                    },
+                                    {
+                                        "wd": "inappreciable"
+                                    },
+                                    {
+                                        "wd": "infinitesimal"
+                                    },
+                                    {
+                                        "wd": "little bitty"
+                                    },
+                                    {
+                                        "wd": "micro"
+                                    },
+                                    {
+                                        "wd": "microscopic",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "microscopical"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "mini"
+                                    },
+                                    {
+                                        "wd": "miniature"
+                                    },
+                                    {
+                                        "wd": "miniaturized"
+                                    },
+                                    {
+                                        "wd": "minikin"
+                                    },
+                                    {
+                                        "wd": "minim"
+                                    },
+                                    {
+                                        "wd": "minuscule"
+                                    },
+                                    {
+                                        "wd": "minute"
+                                    },
+                                    {
+                                        "wd": "pinpoint"
+                                    },
+                                    {
+                                        "wd": "teensy"
+                                    },
+                                    {
+                                        "wd": "teensy-weensy"
+                                    },
+                                    {
+                                        "wd": "teeny"
+                                    },
+                                    {
+                                        "wd": "teeny-weeny"
+                                    },
+                                    {
+                                        "wd": "tiny"
+                                    },
+                                    {
+                                        "wd": "wee"
+                                    },
+                                    {
+                                        "wd": "weeny",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "weensy"
+                                        }]
+                                    }
+                                ],
+                                [{
+                                        "wd": "meager",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "meagre"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "niggardly"
+                                    },
+                                    {
+                                        "wd": "poor"
+                                    },
+                                    {
+                                        "wd": "scant"
+                                    },
+                                    {
+                                        "wd": "scanty"
+                                    },
+                                    {
+                                        "wd": "scarce"
+                                    },
+                                    {
+                                        "wd": "skimp"
+                                    },
+                                    {
+                                        "wd": "skimpy"
+                                    },
+                                    {
+                                        "wd": "slender"
+                                    },
+                                    {
+                                        "wd": "slim"
+                                    },
+                                    {
+                                        "wd": "spare"
+                                    },
+                                    {
+                                        "wd": "sparse"
+                                    },
+                                    {
+                                        "wd": "stingy"
+                                    }
+                                ],
+                                [{
+                                        "wd": "deficient"
+                                    },
+                                    {
+                                        "wd": "inadequate"
+                                    },
+                                    {
+                                        "wd": "insufficient"
+                                    },
+                                    {
+                                        "wd": "lacking"
+                                    },
+                                    {
+                                        "wd": "wanting"
+                                    }
+                                ],
+                                [{
+                                        "wd": "bite-size",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "bite-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "capsule"
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "bulky"
+                                    },
+                                    {
+                                        "wd": "hefty"
+                                    },
+                                    {
+                                        "wd": "hulking"
+                                    },
+                                    {
+                                        "wd": "massive"
+                                    },
+                                    {
+                                        "wd": "voluminous"
+                                    }
+                                ],
+                                [{
+                                        "wd": "boxcar"
+                                    },
+                                    {
+                                        "wd": "Brobdingnagian"
+                                    },
+                                    {
+                                        "wd": "Bunyanesque"
+                                    },
+                                    {
+                                        "wd": "cavernous"
+                                    },
+                                    {
+                                        "wd": "colossal"
+                                    },
+                                    {
+                                        "wd": "cyclopean"
+                                    },
+                                    {
+                                        "wd": "elephantine"
+                                    },
+                                    {
+                                        "wd": "enormous"
+                                    },
+                                    {
+                                        "wd": "galactic"
+                                    },
+                                    {
+                                        "wd": "gargantuan"
+                                    },
+                                    {
+                                        "wd": "giant"
+                                    },
+                                    {
+                                        "wd": "gigantic"
+                                    },
+                                    {
+                                        "wd": "gross"
+                                    },
+                                    {
+                                        "wd": "Himalayan"
+                                    },
+                                    {
+                                        "wd": "herculean"
+                                    },
+                                    {
+                                        "wd": "heroic",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "heroical"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "huge"
+                                    },
+                                    {
+                                        "wd": "humongous",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "humungous"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "immense"
+                                    },
+                                    {
+                                        "wd": "jumbo"
+                                    },
+                                    {
+                                        "wd": "leviathan"
+                                    },
+                                    {
+                                        "wd": "mammoth"
+                                    },
+                                    {
+                                        "wd": "monolithic"
+                                    },
+                                    {
+                                        "wd": "monstrous"
+                                    },
+                                    {
+                                        "wd": "monumental"
+                                    },
+                                    {
+                                        "wd": "mountainous"
+                                    },
+                                    {
+                                        "wd": "pharaonic"
+                                    },
+                                    {
+                                        "wd": "prodigious"
+                                    },
+                                    {
+                                        "wd": "staggering"
+                                    },
+                                    {
+                                        "wd": "stupendous"
+                                    },
+                                    {
+                                        "wd": "titanic"
+                                    },
+                                    {
+                                        "wd": "tremendous"
+                                    },
+                                    {
+                                        "wd": "vast"
+                                    }
+                                ],
+                                [{
+                                        "wd": "abundant"
+                                    },
+                                    {
+                                        "wd": "ample"
+                                    },
+                                    {
+                                        "wd": "appreciable"
+                                    },
+                                    {
+                                        "wd": "bountiful"
+                                    },
+                                    {
+                                        "wd": "copious"
+                                    },
+                                    {
+                                        "wd": "generous"
+                                    },
+                                    {
+                                        "wd": "healthy"
+                                    },
+                                    {
+                                        "wd": "liberal"
+                                    },
+                                    {
+                                        "wd": "plenteous"
+                                    },
+                                    {
+                                        "wd": "plentiful"
+                                    }
+                                ],
+                                [{
+                                        "wd": "fat"
+                                    },
+                                    {
+                                        "wd": "thick"
+                                    }
+                                ],
+                                [{
+                                        "wd": "broad"
+                                    },
+                                    {
+                                        "wd": "wide"
+                                    }
+                                ],
+                                [{
+                                        "wd": "boundless"
+                                    },
+                                    {
+                                        "wd": "cosmic",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "cosmical"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "immeasurable"
+                                    },
+                                    {
+                                        "wd": "incalculable"
+                                    },
+                                    {
+                                        "wd": "infinite"
+                                    }
+                                ],
+                                [{
+                                        "wd": "adequate"
+                                    },
+                                    {
+                                        "wd": "enough"
+                                    },
+                                    {
+                                        "wd": "sufficient"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "big"
+                                    },
+                                    {
+                                        "wd": "biggish"
+                                    },
+                                    {
+                                        "wd": "considerable"
+                                    },
+                                    {
+                                        "wd": "goodly"
+                                    },
+                                    {
+                                        "wd": "grand"
+                                    },
+                                    {
+                                        "wd": "great"
+                                    },
+                                    {
+                                        "wd": "handsome"
+                                    },
+                                    {
+                                        "wd": "husky"
+                                    },
+                                    {
+                                        "wd": "king-size",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "king-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "large"
+                                    },
+                                    {
+                                        "wd": "largish"
+                                    },
+                                    {
+                                        "wd": "outsize",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "outsized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "overscale",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "overscaled"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "oversize",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "oversized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "sizable",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "sizeable"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "substantial"
+                                    },
+                                    {
+                                        "wd": "tidy"
+                                    },
+                                    {
+                                        "wd": "whacking"
+                                    },
+                                    {
+                                        "wd": "whopping"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "having relatively little height",
+            "lacking importance",
+            "not broad or open in views or opinions"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little",
+            "uuid": "36fc60e2-97c1-4dc5-b290-382450f38e8b",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "d40c6957-fb25-485b-9acd-292de2eef355",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "little",
+                "least",
+                "less"
+            ],
+            "syns": [
+                [
+                    "negligibly",
+                    "nominally",
+                    "slightly"
+                ],
+                [
+                    "infrequently",
+                    "rarely",
+                    "seldom"
+                ]
+            ],
+            "ants": [
+                [
+                    "awful",
+                    "awfully",
+                    "beastly",
+                    "considerably",
+                    "deadly",
+                    "especially",
+                    "exceedingly",
+                    "extensively",
+                    "extra",
+                    "extremely",
+                    "far",
+                    "frightfully",
+                    "full",
+                    "greatly",
+                    "heavily",
+                    "highly",
+                    "jolly",
+                    "mightily",
+                    "mighty",
+                    "mortally",
+                    "most",
+                    "much",
+                    "particularly",
+                    "rattling",
+                    "real",
+                    "right",
+                    "significantly",
+                    "so",
+                    "something",
+                    "substantially",
+                    "super",
+                    "terribly",
+                    "too",
+                    "very",
+                    "whacking"
+                ],
+                [
+                    "frequently",
+                    "oft",
+                    "often",
+                    "oftentimes"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little"
+        },
+        "fl": "adverb",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "1",
+                            "dt": [
+                                [
+                                    "text",
+                                    "in a very small quantity or degree "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "we had {it}little{/it} more than we needed to survive in the wilderness"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "negligibly"
+                                    },
+                                    {
+                                        "wd": "nominally"
+                                    },
+                                    {
+                                        "wd": "slightly"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "meagerly"
+                                    },
+                                    {
+                                        "wd": "scantily"
+                                    }
+                                ],
+                                [{
+                                        "wd": "barely"
+                                    },
+                                    {
+                                        "wd": "hardly"
+                                    },
+                                    {
+                                        "wd": "just"
+                                    },
+                                    {
+                                        "wd": "marginally"
+                                    },
+                                    {
+                                        "wd": "minimally"
+                                    },
+                                    {
+                                        "wd": "scarcely"
+                                    }
+                                ]
+                            ],
+                            "phrase_list": [
+                                [{
+                                        "wd": "a bit"
+                                    },
+                                    {
+                                        "wd": "a trifle"
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "completely"
+                                    },
+                                    {
+                                        "wd": "entirely"
+                                    },
+                                    {
+                                        "wd": "purely"
+                                    },
+                                    {
+                                        "wd": "thoroughly"
+                                    },
+                                    {
+                                        "wd": "totally"
+                                    },
+                                    {
+                                        "wd": "utterly"
+                                    }
+                                ],
+                                [{
+                                        "wd": "eminently"
+                                    },
+                                    {
+                                        "wd": "exceptionally"
+                                    }
+                                ],
+                                [{
+                                        "wd": "appreciably"
+                                    },
+                                    {
+                                        "wd": "discernibly"
+                                    },
+                                    {
+                                        "wd": "noticeably"
+                                    },
+                                    {
+                                        "wd": "palpably"
+                                    }
+                                ],
+                                [{
+                                        "wd": "abundantly"
+                                    },
+                                    {
+                                        "wd": "plentifully"
+                                    }
+                                ],
+                                [{
+                                        "wd": "generously"
+                                    },
+                                    {
+                                        "wd": "handsomely"
+                                    },
+                                    {
+                                        "wd": "liberally"
+                                    }
+                                ],
+                                [{
+                                        "wd": "astronomically"
+                                    },
+                                    {
+                                        "wd": "grandly"
+                                    },
+                                    {
+                                        "wd": "hugely"
+                                    },
+                                    {
+                                        "wd": "monstrously"
+                                    },
+                                    {
+                                        "wd": "monumentally"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "awful"
+                                    },
+                                    {
+                                        "wd": "awfully"
+                                    },
+                                    {
+                                        "wd": "beastly"
+                                    },
+                                    {
+                                        "wd": "considerably"
+                                    },
+                                    {
+                                        "wd": "deadly"
+                                    },
+                                    {
+                                        "wd": "especially"
+                                    },
+                                    {
+                                        "wd": "exceedingly",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "exceeding"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "extensively"
+                                    },
+                                    {
+                                        "wd": "extra"
+                                    },
+                                    {
+                                        "wd": "extremely"
+                                    },
+                                    {
+                                        "wd": "far"
+                                    },
+                                    {
+                                        "wd": "frightfully"
+                                    },
+                                    {
+                                        "wd": "full"
+                                    },
+                                    {
+                                        "wd": "greatly"
+                                    },
+                                    {
+                                        "wd": "heavily"
+                                    },
+                                    {
+                                        "wd": "highly"
+                                    },
+                                    {
+                                        "wd": "jolly"
+                                    },
+                                    {
+                                        "wd": "mightily"
+                                    },
+                                    {
+                                        "wd": "mighty"
+                                    },
+                                    {
+                                        "wd": "mortally"
+                                    },
+                                    {
+                                        "wd": "most"
+                                    },
+                                    {
+                                        "wd": "much"
+                                    },
+                                    {
+                                        "wd": "particularly"
+                                    },
+                                    {
+                                        "wd": "rattling"
+                                    },
+                                    {
+                                        "wd": "real"
+                                    },
+                                    {
+                                        "wd": "right"
+                                    },
+                                    {
+                                        "wd": "significantly"
+                                    },
+                                    {
+                                        "wd": "so"
+                                    },
+                                    {
+                                        "wd": "something"
+                                    },
+                                    {
+                                        "wd": "substantially"
+                                    },
+                                    {
+                                        "wd": "super"
+                                    },
+                                    {
+                                        "wd": "terribly"
+                                    },
+                                    {
+                                        "wd": "too"
+                                    },
+                                    {
+                                        "wd": "very"
+                                    },
+                                    {
+                                        "wd": "whacking"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ],
+                [
+                    [
+                        "sense",
+                        {
+                            "sn": "2",
+                            "dt": [
+                                [
+                                    "text",
+                                    "not often "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "he's been studying very {it}little{/it} for the bar exam"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "infrequently"
+                                    },
+                                    {
+                                        "wd": "rarely"
+                                    },
+                                    {
+                                        "wd": "seldom"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "ne'er"
+                                    },
+                                    {
+                                        "wd": "never"
+                                    }
+                                ],
+                                [{
+                                        "wd": "episodically"
+                                    },
+                                    {
+                                        "wd": "irregularly"
+                                    },
+                                    {
+                                        "wd": "now and then"
+                                    },
+                                    {
+                                        "wd": "occasionally"
+                                    },
+                                    {
+                                        "wd": "sometimes"
+                                    },
+                                    {
+                                        "wd": "sporadically"
+                                    }
+                                ]
+                            ],
+                            "phrase_list": [
+                                [{
+                                    "wd": "once in a blue moon"
+                                }]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "customarily"
+                                    },
+                                    {
+                                        "wd": "generally"
+                                    },
+                                    {
+                                        "wd": "habitually"
+                                    },
+                                    {
+                                        "wd": "ordinarily"
+                                    },
+                                    {
+                                        "wd": "routinely"
+                                    },
+                                    {
+                                        "wd": "usually"
+                                    }
+                                ],
+                                [{
+                                        "wd": "always"
+                                    },
+                                    {
+                                        "wd": "constantly"
+                                    },
+                                    {
+                                        "wd": "continually"
+                                    },
+                                    {
+                                        "wd": "continuously"
+                                    },
+                                    {
+                                        "wd": "endlessly"
+                                    },
+                                    {
+                                        "wd": "eternally"
+                                    },
+                                    {
+                                        "wd": "ever"
+                                    },
+                                    {
+                                        "wd": "everlastingly"
+                                    },
+                                    {
+                                        "wd": "evermore"
+                                    },
+                                    {
+                                        "wd": "forever"
+                                    },
+                                    {
+                                        "wd": "invariably"
+                                    },
+                                    {
+                                        "wd": "perennially"
+                                    },
+                                    {
+                                        "wd": "perpetually"
+                                    },
+                                    {
+                                        "wd": "unceasingly"
+                                    }
+                                ],
+                                [{
+                                        "wd": "chronically"
+                                    },
+                                    {
+                                        "wd": "recurrently"
+                                    },
+                                    {
+                                        "wd": "repeatedly"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "frequently"
+                                    },
+                                    {
+                                        "wd": "oft"
+                                    },
+                                    {
+                                        "wd": "often"
+                                    },
+                                    {
+                                        "wd": "oftentimes",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "ofttimes"
+                                        }]
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "in a very small quantity or degree",
+            "not often"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little",
+            "uuid": "11e5942b-6328-4696-ab67-fdae9a559cfe",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "7eff95fc-e72f-4160-827c-13759b5c4e4a",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "little",
+                "in little",
+                "littles"
+            ],
+            "syns": [
+                [
+                    "ace",
+                    "bit",
+                    "crumb",
+                    "dab",
+                    "dram",
+                    "driblet",
+                    "glimmer",
+                    "hint",
+                    "lick",
+                    "mite",
+                    "nip",
+                    "ounce",
+                    "particle",
+                    "peanuts",
+                    "ray",
+                    "scintilla",
+                    "scruple",
+                    "shade",
+                    "shadow",
+                    "shred",
+                    "skosh",
+                    "smack",
+                    "smell",
+                    "smidgen",
+                    "snap",
+                    "soupçon",
+                    "spark",
+                    "spatter",
+                    "speck",
+                    "splash",
+                    "spot",
+                    "sprinkling",
+                    "strain",
+                    "streak",
+                    "suspicion",
+                    "tad",
+                    "touch",
+                    "trace"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little"
+        },
+        "fl": "noun",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "a very small amount "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "there's just a {it}little{/it} of the pie left"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "ace"
+                                    },
+                                    {
+                                        "wd": "bit"
+                                    },
+                                    {
+                                        "wd": "crumb"
+                                    },
+                                    {
+                                        "wd": "dab"
+                                    },
+                                    {
+                                        "wd": "dram"
+                                    },
+                                    {
+                                        "wd": "driblet"
+                                    },
+                                    {
+                                        "wd": "glimmer"
+                                    },
+                                    {
+                                        "wd": "hint"
+                                    },
+                                    {
+                                        "wd": "lick"
+                                    },
+                                    {
+                                        "wd": "mite"
+                                    },
+                                    {
+                                        "wd": "nip"
+                                    },
+                                    {
+                                        "wd": "ounce"
+                                    },
+                                    {
+                                        "wd": "particle"
+                                    },
+                                    {
+                                        "wd": "peanuts"
+                                    },
+                                    {
+                                        "wd": "ray"
+                                    },
+                                    {
+                                        "wd": "scintilla"
+                                    },
+                                    {
+                                        "wd": "scruple"
+                                    },
+                                    {
+                                        "wd": "shade"
+                                    },
+                                    {
+                                        "wd": "shadow"
+                                    },
+                                    {
+                                        "wd": "shred"
+                                    },
+                                    {
+                                        "wd": "skosh"
+                                    },
+                                    {
+                                        "wd": "smack"
+                                    },
+                                    {
+                                        "wd": "smell"
+                                    },
+                                    {
+                                        "wd": "smidgen",
+                                        "wvrs": [{
+                                                "wvl": "also",
+                                                "wva": "smidgeon"
+                                            },
+                                            {
+                                                "wvl": "or",
+                                                "wva": "smidgin"
+                                            },
+                                            {
+                                                "wvl": "or",
+                                                "wva": "smidge"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "wd": "snap"
+                                    },
+                                    {
+                                        "wd": "soupçon"
+                                    },
+                                    {
+                                        "wd": "spark"
+                                    },
+                                    {
+                                        "wd": "spatter"
+                                    },
+                                    {
+                                        "wd": "speck"
+                                    },
+                                    {
+                                        "wd": "splash"
+                                    },
+                                    {
+                                        "wd": "spot"
+                                    },
+                                    {
+                                        "wd": "sprinkling"
+                                    },
+                                    {
+                                        "wd": "strain"
+                                    },
+                                    {
+                                        "wd": "streak"
+                                    },
+                                    {
+                                        "wd": "suspicion"
+                                    },
+                                    {
+                                        "wd": "tad"
+                                    },
+                                    {
+                                        "wd": "touch"
+                                    },
+                                    {
+                                        "wd": "trace"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "hoot"
+                                    },
+                                    {
+                                        "wd": "iota"
+                                    },
+                                    {
+                                        "wd": "jot"
+                                    },
+                                    {
+                                        "wd": "minim"
+                                    },
+                                    {
+                                        "wd": "minimum"
+                                    },
+                                    {
+                                        "wd": "modicum"
+                                    },
+                                    {
+                                        "wd": "semblance"
+                                    },
+                                    {
+                                        "wd": "syllable"
+                                    },
+                                    {
+                                        "wd": "tittle"
+                                    },
+                                    {
+                                        "wd": "vestige"
+                                    },
+                                    {
+                                        "wd": "whit"
+                                    }
+                                ],
+                                [{
+                                        "wd": "atom"
+                                    },
+                                    {
+                                        "wd": "dot"
+                                    },
+                                    {
+                                        "wd": "fleck"
+                                    },
+                                    {
+                                        "wd": "flyspeck"
+                                    },
+                                    {
+                                        "wd": "grain"
+                                    },
+                                    {
+                                        "wd": "granule"
+                                    },
+                                    {
+                                        "wd": "molecule"
+                                    },
+                                    {
+                                        "wd": "morsel"
+                                    },
+                                    {
+                                        "wd": "mote"
+                                    },
+                                    {
+                                        "wd": "nubbin"
+                                    },
+                                    {
+                                        "wd": "patch"
+                                    },
+                                    {
+                                        "wd": "scrap"
+                                    }
+                                ],
+                                [{
+                                        "wd": "dash"
+                                    },
+                                    {
+                                        "wd": "drop"
+                                    },
+                                    {
+                                        "wd": "pinch"
+                                    }
+                                ],
+                                [{
+                                        "wd": "part"
+                                    },
+                                    {
+                                        "wd": "portion"
+                                    },
+                                    {
+                                        "wd": "section"
+                                    }
+                                ],
+                                [{
+                                        "wd": "bite"
+                                    },
+                                    {
+                                        "wd": "nibble"
+                                    },
+                                    {
+                                        "wd": "taste"
+                                    }
+                                ],
+                                [{
+                                        "wd": "handful"
+                                    },
+                                    {
+                                        "wd": "scattering"
+                                    },
+                                    {
+                                        "wd": "smatter"
+                                    },
+                                    {
+                                        "wd": "smattering"
+                                    }
+                                ],
+                                [{
+                                        "wd": "dose"
+                                    },
+                                    {
+                                        "wd": "shot"
+                                    }
+                                ],
+                                [{
+                                        "wd": "chip"
+                                    },
+                                    {
+                                        "wd": "flake"
+                                    },
+                                    {
+                                        "wd": "fragment"
+                                    },
+                                    {
+                                        "wd": "shard"
+                                    },
+                                    {
+                                        "wd": "shiver"
+                                    },
+                                    {
+                                        "wd": "sliver"
+                                    },
+                                    {
+                                        "wd": "smithereens"
+                                    },
+                                    {
+                                        "wd": "splinter"
+                                    }
+                                ],
+                                [{
+                                    "wd": "tatter"
+                                }],
+                                [{
+                                        "wd": "clipping"
+                                    },
+                                    {
+                                        "wd": "paring"
+                                    },
+                                    {
+                                        "wd": "shaving"
+                                    }
+                                ]
+                            ],
+                            "phrase_list": [
+                                [{
+                                    "wd": "drop in the bucket"
+                                }]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "abundance"
+                                    },
+                                    {
+                                        "wd": "barrel"
+                                    },
+                                    {
+                                        "wd": "boatload"
+                                    },
+                                    {
+                                        "wd": "bucket"
+                                    },
+                                    {
+                                        "wd": "bundle"
+                                    },
+                                    {
+                                        "wd": "bushel"
+                                    },
+                                    {
+                                        "wd": "deal"
+                                    },
+                                    {
+                                        "wd": "fistful"
+                                    },
+                                    {
+                                        "wd": "gobs"
+                                    },
+                                    {
+                                        "wd": "heaps"
+                                    },
+                                    {
+                                        "wd": "lashings",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "lashins"
+                                        }],
+                                        "wsls": [
+                                            "chiefly British"
+                                        ]
+                                    },
+                                    {
+                                        "wd": "loads"
+                                    },
+                                    {
+                                        "wd": "lot"
+                                    },
+                                    {
+                                        "wd": "mass"
+                                    },
+                                    {
+                                        "wd": "mess"
+                                    },
+                                    {
+                                        "wd": "mountain"
+                                    },
+                                    {
+                                        "wd": "much"
+                                    },
+                                    {
+                                        "wd": "oodles"
+                                    },
+                                    {
+                                        "wd": "passel"
+                                    },
+                                    {
+                                        "wd": "peck"
+                                    },
+                                    {
+                                        "wd": "pile"
+                                    },
+                                    {
+                                        "wd": "plenty"
+                                    },
+                                    {
+                                        "wd": "potful"
+                                    },
+                                    {
+                                        "wd": "profusion"
+                                    },
+                                    {
+                                        "wd": "quantity"
+                                    },
+                                    {
+                                        "wd": "raft"
+                                    },
+                                    {
+                                        "wd": "reams"
+                                    },
+                                    {
+                                        "wd": "scads"
+                                    },
+                                    {
+                                        "wd": "stack"
+                                    },
+                                    {
+                                        "wd": "wad"
+                                    },
+                                    {
+                                        "wd": "wealth"
+                                    }
+                                ],
+                                [{
+                                    "wd": "volume"
+                                }],
+                                [{
+                                        "wd": "bonanza"
+                                    },
+                                    {
+                                        "wd": "embarrassment"
+                                    },
+                                    {
+                                        "wd": "excess"
+                                    },
+                                    {
+                                        "wd": "overabundance"
+                                    },
+                                    {
+                                        "wd": "overage"
+                                    },
+                                    {
+                                        "wd": "overflow"
+                                    },
+                                    {
+                                        "wd": "overkill"
+                                    },
+                                    {
+                                        "wd": "overmuch"
+                                    },
+                                    {
+                                        "wd": "oversupply"
+                                    },
+                                    {
+                                        "wd": "superabundance"
+                                    },
+                                    {
+                                        "wd": "superfluity"
+                                    },
+                                    {
+                                        "wd": "surfeit"
+                                    },
+                                    {
+                                        "wd": "surplus"
+                                    }
+                                ],
+                                [{
+                                        "wd": "chunk"
+                                    },
+                                    {
+                                        "wd": "hunk"
+                                    },
+                                    {
+                                        "wd": "lump"
+                                    },
+                                    {
+                                        "wd": "slab"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "a very small amount"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little bitty",
+            "uuid": "a54f9b8e-b8b7-4da4-aa1b-d7d5757c035d",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "9e9f3e77-df56-439c-bc8a-8b0468e44409",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "little bitty"
+            ],
+            "syns": [
+                [
+                    "atomic",
+                    "bitsy",
+                    "bitty",
+                    "infinitesimal",
+                    "itty-bitty",
+                    "microminiature",
+                    "microscopic",
+                    "miniature",
+                    "minuscule",
+                    "minute",
+                    "teensy",
+                    "teensy-weensy",
+                    "teeny",
+                    "teeny-weeny",
+                    "tiny",
+                    "wee",
+                    "weeny"
+                ]
+            ],
+            "ants": [
+                [
+                    "astronomical",
+                    "colossal",
+                    "cosmic",
+                    "elephantine",
+                    "enormous",
+                    "giant",
+                    "gigantic",
+                    "herculean",
+                    "heroic",
+                    "huge",
+                    "immense",
+                    "mammoth",
+                    "massive",
+                    "monster",
+                    "monstrous",
+                    "monumental",
+                    "mountainous",
+                    "planetary",
+                    "prodigious",
+                    "titanic",
+                    "tremendous"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little bitty"
+        },
+        "fl": "adjective",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "very small in size "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "all that was left when I finally got to the dessert table was one {it}little bitty{/it} piece of pie"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "atomic"
+                                    },
+                                    {
+                                        "wd": "bitsy"
+                                    },
+                                    {
+                                        "wd": "bitty"
+                                    },
+                                    {
+                                        "wd": "infinitesimal"
+                                    },
+                                    {
+                                        "wd": "itty-bitty",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "itsy-bitsy"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "microminiature"
+                                    },
+                                    {
+                                        "wd": "microscopic",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "microscopical"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "miniature"
+                                    },
+                                    {
+                                        "wd": "minuscule"
+                                    },
+                                    {
+                                        "wd": "minute"
+                                    },
+                                    {
+                                        "wd": "teensy"
+                                    },
+                                    {
+                                        "wd": "teensy-weensy"
+                                    },
+                                    {
+                                        "wd": "teeny"
+                                    },
+                                    {
+                                        "wd": "teeny-weeny"
+                                    },
+                                    {
+                                        "wd": "tiny"
+                                    },
+                                    {
+                                        "wd": "wee"
+                                    },
+                                    {
+                                        "wd": "weeny",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "weensy"
+                                        }]
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "baby"
+                                    },
+                                    {
+                                        "wd": "diminutive"
+                                    },
+                                    {
+                                        "wd": "dwarf"
+                                    },
+                                    {
+                                        "wd": "elfin"
+                                    },
+                                    {
+                                        "wd": "half-pint"
+                                    },
+                                    {
+                                        "wd": "Lilliputian"
+                                    },
+                                    {
+                                        "wd": "little"
+                                    },
+                                    {
+                                        "wd": "micro"
+                                    },
+                                    {
+                                        "wd": "mini"
+                                    },
+                                    {
+                                        "wd": "minikin"
+                                    },
+                                    {
+                                        "wd": "model"
+                                    },
+                                    {
+                                        "wd": "petite"
+                                    },
+                                    {
+                                        "wd": "pocket"
+                                    },
+                                    {
+                                        "wd": "pocket-size",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "pocket-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "pygmy"
+                                    },
+                                    {
+                                        "wd": "small"
+                                    },
+                                    {
+                                        "wd": "smallish"
+                                    }
+                                ],
+                                [{
+                                        "wd": "dinky"
+                                    },
+                                    {
+                                        "wd": "dwarfish"
+                                    },
+                                    {
+                                        "wd": "insignificant"
+                                    },
+                                    {
+                                        "wd": "pint-size",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "pint-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "puny"
+                                    },
+                                    {
+                                        "wd": "scrubby"
+                                    },
+                                    {
+                                        "wd": "undersized",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "undersize"
+                                        }]
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "big"
+                                    },
+                                    {
+                                        "wd": "bulky"
+                                    },
+                                    {
+                                        "wd": "bumper"
+                                    },
+                                    {
+                                        "wd": "considerable"
+                                    },
+                                    {
+                                        "wd": "extensive"
+                                    },
+                                    {
+                                        "wd": "good"
+                                    },
+                                    {
+                                        "wd": "goodly"
+                                    },
+                                    {
+                                        "wd": "grand"
+                                    },
+                                    {
+                                        "wd": "great"
+                                    },
+                                    {
+                                        "wd": "gross"
+                                    },
+                                    {
+                                        "wd": "handsome"
+                                    },
+                                    {
+                                        "wd": "hefty"
+                                    },
+                                    {
+                                        "wd": "hulking"
+                                    },
+                                    {
+                                        "wd": "jumbo"
+                                    },
+                                    {
+                                        "wd": "king-size",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "king-sized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "large"
+                                    },
+                                    {
+                                        "wd": "largish"
+                                    },
+                                    {
+                                        "wd": "major"
+                                    },
+                                    {
+                                        "wd": "outsize",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "outsized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "overgrown"
+                                    },
+                                    {
+                                        "wd": "overscale",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "overscaled"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "oversize",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "oversized"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "sizable",
+                                        "wvrs": [{
+                                            "wvl": "or",
+                                            "wva": "sizeable"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "substantial"
+                                    },
+                                    {
+                                        "wd": "super"
+                                    },
+                                    {
+                                        "wd": "whacking"
+                                    },
+                                    {
+                                        "wd": "whopping"
+                                    }
+                                ],
+                                [{
+                                        "wd": "formidable"
+                                    },
+                                    {
+                                        "wd": "grandiose"
+                                    },
+                                    {
+                                        "wd": "imposing"
+                                    },
+                                    {
+                                        "wd": "lofty"
+                                    },
+                                    {
+                                        "wd": "majestic"
+                                    },
+                                    {
+                                        "wd": "monolithic"
+                                    },
+                                    {
+                                        "wd": "staggering"
+                                    },
+                                    {
+                                        "wd": "stupendous"
+                                    },
+                                    {
+                                        "wd": "towering"
+                                    }
+                                ],
+                                [{
+                                        "wd": "boundless"
+                                    },
+                                    {
+                                        "wd": "cavernous"
+                                    },
+                                    {
+                                        "wd": "immeasurable"
+                                    },
+                                    {
+                                        "wd": "infinite"
+                                    },
+                                    {
+                                        "wd": "vast"
+                                    },
+                                    {
+                                        "wd": "vasty"
+                                    },
+                                    {
+                                        "wd": "voluminous"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "astronomical",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "astronomic"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "colossal"
+                                    },
+                                    {
+                                        "wd": "cosmic",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "cosmical"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "elephantine"
+                                    },
+                                    {
+                                        "wd": "enormous"
+                                    },
+                                    {
+                                        "wd": "giant"
+                                    },
+                                    {
+                                        "wd": "gigantic"
+                                    },
+                                    {
+                                        "wd": "herculean"
+                                    },
+                                    {
+                                        "wd": "heroic",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "heroical"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "huge"
+                                    },
+                                    {
+                                        "wd": "immense"
+                                    },
+                                    {
+                                        "wd": "mammoth"
+                                    },
+                                    {
+                                        "wd": "massive"
+                                    },
+                                    {
+                                        "wd": "monster"
+                                    },
+                                    {
+                                        "wd": "monstrous"
+                                    },
+                                    {
+                                        "wd": "monumental"
+                                    },
+                                    {
+                                        "wd": "mountainous"
+                                    },
+                                    {
+                                        "wd": "planetary"
+                                    },
+                                    {
+                                        "wd": "prodigious"
+                                    },
+                                    {
+                                        "wd": "titanic"
+                                    },
+                                    {
+                                        "wd": "tremendous"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "very small in size"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little by little",
+            "uuid": "d36c2e4c-b0c1-4b45-803c-b5cb1b8f5b23",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "9931ecdc-260c-41fb-909e-c878158a9777",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "little by little"
+            ],
+            "syns": [
+                [
+                    "gradationally",
+                    "gradually",
+                    "inchmeal",
+                    "piece by piece",
+                    "piecemeal"
+                ]
+            ],
+            "ants": [
+                [
+                    "abruptly",
+                    "suddenly"
+                ]
+            ],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little by little"
+        },
+        "fl": "adverb",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "by small steps or amounts "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "{it}little by little{/it}, we pieced together the jigsaw puzzle"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "gradationally"
+                                    },
+                                    {
+                                        "wd": "gradually"
+                                    },
+                                    {
+                                        "wd": "inchmeal"
+                                    },
+                                    {
+                                        "wd": "piece by piece"
+                                    },
+                                    {
+                                        "wd": "piecemeal"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                    "wd": "hierarchically"
+                                }],
+                                [{
+                                        "wd": "crescively"
+                                    },
+                                    {
+                                        "wd": "increasingly"
+                                    },
+                                    {
+                                        "wd": "progressively"
+                                    }
+                                ],
+                                [{
+                                        "wd": "fractionally"
+                                    },
+                                    {
+                                        "wd": "imperceptibly"
+                                    }
+                                ],
+                                [{
+                                    "wd": "slowly"
+                                }]
+                            ],
+                            "phrase_list": [
+                                [{
+                                        "wd": "bit by bit"
+                                    },
+                                    {
+                                        "wd": "by degrees"
+                                    },
+                                    {
+                                        "wd": "inch by inch"
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "acutely"
+                                    },
+                                    {
+                                        "wd": "sharply"
+                                    },
+                                    {
+                                        "wd": "steeply"
+                                    }
+                                ],
+                                [{
+                                        "wd": "hastily"
+                                    },
+                                    {
+                                        "wd": "precipitously"
+                                    }
+                                ]
+                            ],
+                            "ant_list": [
+                                [{
+                                        "wd": "abruptly"
+                                    },
+                                    {
+                                        "wd": "suddenly"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "by small steps or amounts"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little guy",
+            "uuid": "f37903a7-7aa1-4fb7-a093-cbdd95643e7a",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "770f448e-028d-40cc-acc8-862874dfa282",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "little guy",
+                "little guys"
+            ],
+            "syns": [
+                [
+                    "everyman",
+                    "Joe Blow",
+                    "Joe Six-Pack",
+                    "John Doe",
+                    "little man",
+                    "lug",
+                    "slob"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little guy"
+        },
+        "fl": "noun",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "an average or ordinary man "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "for a politician who likes to portray himself as a friend of the {it}little guy{/it}, he sure is fond of rubbing elbows with the fat cats"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "everyman"
+                                    },
+                                    {
+                                        "wd": "Joe Blow"
+                                    },
+                                    {
+                                        "wd": "Joe Six-Pack"
+                                    },
+                                    {
+                                        "wd": "John Doe"
+                                    },
+                                    {
+                                        "wd": "little man"
+                                    },
+                                    {
+                                        "wd": "lug"
+                                    },
+                                    {
+                                        "wd": "slob"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "commoner"
+                                    },
+                                    {
+                                        "wd": "pleb"
+                                    },
+                                    {
+                                        "wd": "plebeian"
+                                    },
+                                    {
+                                        "wd": "prole"
+                                    },
+                                    {
+                                        "wd": "proletarian"
+                                    }
+                                ],
+                                [{
+                                        "wd": "everywoman"
+                                    },
+                                    {
+                                        "wd": "plain Jane"
+                                    }
+                                ],
+                                [{
+                                        "wd": "laborer"
+                                    },
+                                    {
+                                        "wd": "peon"
+                                    },
+                                    {
+                                        "wd": "worker"
+                                    }
+                                ]
+                            ],
+                            "phrase_list": [
+                                [{
+                                    "wd": "man in the street"
+                                }]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "big cheese"
+                                    },
+                                    {
+                                        "wd": "big shot"
+                                    },
+                                    {
+                                        "wd": "big wheel"
+                                    },
+                                    {
+                                        "wd": "bigwig"
+                                    },
+                                    {
+                                        "wd": "fat cat"
+                                    },
+                                    {
+                                        "wd": "mover and shaker"
+                                    },
+                                    {
+                                        "wd": "VIP"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "an average or ordinary man"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little man",
+            "uuid": "5074ddcb-147b-4fc9-b86c-5f22724cd255",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "1ece02e7-778f-4490-b15b-93dace8401e7",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "little man",
+                "little men"
+            ],
+            "syns": [
+                [
+                    "everyman",
+                    "Joe Blow",
+                    "Joe Six-Pack",
+                    "John Doe",
+                    "little guy",
+                    "lug",
+                    "slob"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little man"
+        },
+        "fl": "noun",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "an average or ordinary man "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "claims that the wind farm would benefit only its developers and that the {it}little man{/it} would get nothing out of it"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "everyman"
+                                    },
+                                    {
+                                        "wd": "Joe Blow"
+                                    },
+                                    {
+                                        "wd": "Joe Six-Pack"
+                                    },
+                                    {
+                                        "wd": "John Doe"
+                                    },
+                                    {
+                                        "wd": "little guy"
+                                    },
+                                    {
+                                        "wd": "lug"
+                                    },
+                                    {
+                                        "wd": "slob"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "commoner"
+                                    },
+                                    {
+                                        "wd": "pleb"
+                                    },
+                                    {
+                                        "wd": "plebeian"
+                                    },
+                                    {
+                                        "wd": "prole"
+                                    },
+                                    {
+                                        "wd": "proletarian"
+                                    }
+                                ],
+                                [{
+                                        "wd": "everywoman"
+                                    },
+                                    {
+                                        "wd": "plain Jane"
+                                    }
+                                ],
+                                [{
+                                        "wd": "laborer"
+                                    },
+                                    {
+                                        "wd": "peon"
+                                    },
+                                    {
+                                        "wd": "worker"
+                                    }
+                                ]
+                            ],
+                            "phrase_list": [
+                                [{
+                                    "wd": "man in the street"
+                                }]
+                            ],
+                            "near_list": [
+                                [{
+                                        "wd": "big cheese"
+                                    },
+                                    {
+                                        "wd": "big shot"
+                                    },
+                                    {
+                                        "wd": "big wheel"
+                                    },
+                                    {
+                                        "wd": "bigwig"
+                                    },
+                                    {
+                                        "wd": "fat cat"
+                                    },
+                                    {
+                                        "wd": "mover and shaker"
+                                    },
+                                    {
+                                        "wd": "VIP"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "an average or ordinary man"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little magazine",
+            "uuid": "b98a437b-7006-4ffd-8386-bf05529c57b5",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "little magazine"
+            ],
+            "syns": [
+                [
+                    "digest",
+                    "annual",
+                    "bimonthly",
+                    "biweekly",
+                    "daily",
+                    "monthly",
+                    "quarterly",
+                    "semimonthly",
+                    "semiweekly",
+                    "triweekly",
+                    "weekly",
+                    "yearbook",
+                    "fanzine",
+                    "book",
+                    "bulletin",
+                    "diurnal",
+                    "gazette",
+                    "journal",
+                    "mag",
+                    "magazine",
+                    "newspaper",
+                    "organ",
+                    "paper",
+                    "periodical",
+                    "rag",
+                    "review",
+                    "serial",
+                    "zine",
+                    "pictorial",
+                    "slick",
+                    "broadside",
+                    "edition",
+                    "extra",
+                    "sheet",
+                    "supplement",
+                    "tab",
+                    "tabloid",
+                    "newsletter",
+                    "newsmagazine",
+                    "newsweekly"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little magazine"
+        },
+        "fl": "noun",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "as in {it}digest{/it}"
+                                ]
+                            ],
+                            "sim_list": [
+                                [{
+                                    "wd": "digest"
+                                }],
+                                [{
+                                        "wd": "annual"
+                                    },
+                                    {
+                                        "wd": "bimonthly"
+                                    },
+                                    {
+                                        "wd": "biweekly"
+                                    },
+                                    {
+                                        "wd": "daily"
+                                    },
+                                    {
+                                        "wd": "monthly"
+                                    },
+                                    {
+                                        "wd": "quarterly"
+                                    },
+                                    {
+                                        "wd": "semimonthly"
+                                    },
+                                    {
+                                        "wd": "semiweekly"
+                                    },
+                                    {
+                                        "wd": "triweekly"
+                                    },
+                                    {
+                                        "wd": "weekly"
+                                    },
+                                    {
+                                        "wd": "yearbook"
+                                    }
+                                ],
+                                [{
+                                    "wd": "fanzine"
+                                }],
+                                [{
+                                        "wd": "book"
+                                    },
+                                    {
+                                        "wd": "bulletin"
+                                    },
+                                    {
+                                        "wd": "diurnal"
+                                    },
+                                    {
+                                        "wd": "gazette"
+                                    },
+                                    {
+                                        "wd": "journal"
+                                    },
+                                    {
+                                        "wd": "mag"
+                                    },
+                                    {
+                                        "wd": "magazine"
+                                    },
+                                    {
+                                        "wd": "newspaper"
+                                    },
+                                    {
+                                        "wd": "organ"
+                                    },
+                                    {
+                                        "wd": "paper"
+                                    },
+                                    {
+                                        "wd": "periodical"
+                                    },
+                                    {
+                                        "wd": "rag"
+                                    },
+                                    {
+                                        "wd": "review"
+                                    },
+                                    {
+                                        "wd": "serial"
+                                    },
+                                    {
+                                        "wd": "zine"
+                                    }
+                                ],
+                                [{
+                                        "wd": "pictorial"
+                                    },
+                                    {
+                                        "wd": "slick"
+                                    }
+                                ],
+                                [{
+                                        "wd": "broadside"
+                                    },
+                                    {
+                                        "wd": "edition"
+                                    },
+                                    {
+                                        "wd": "extra"
+                                    },
+                                    {
+                                        "wd": "sheet"
+                                    },
+                                    {
+                                        "wd": "supplement"
+                                    },
+                                    {
+                                        "wd": "tab"
+                                    },
+                                    {
+                                        "wd": "tabloid"
+                                    }
+                                ],
+                                [{
+                                        "wd": "newsletter"
+                                    },
+                                    {
+                                        "wd": "newsmagazine"
+                                    },
+                                    {
+                                        "wd": "newsweekly"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "as in digest"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little magazines",
+            "uuid": "1a52dec5-3a1f-4fa5-9088-f33e5a7a0e3e",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "little magazines"
+            ],
+            "syns": [
+                [
+                    "digests",
+                    "annuals",
+                    "bimonthlies",
+                    "biweeklies",
+                    "dailies",
+                    "monthlies",
+                    "quarterlies",
+                    "semimonthlies",
+                    "semiweeklies",
+                    "triweeklies",
+                    "weeklies",
+                    "yearbooks",
+                    "fanzines",
+                    "books",
+                    "bulletins",
+                    "diurnals",
+                    "gazettes",
+                    "journals",
+                    "magazines",
+                    "mags",
+                    "newspapers",
+                    "organs",
+                    "papers",
+                    "periodicals",
+                    "rags",
+                    "reviews",
+                    "serials",
+                    "zines",
+                    "pictorials",
+                    "slicks",
+                    "broadsides",
+                    "editions",
+                    "extras",
+                    "sheets",
+                    "supplements",
+                    "tabloids",
+                    "tabs",
+                    "newsletters",
+                    "newsmagazines",
+                    "newsweeklies"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little magazines"
+        },
+        "fl": "noun",
+        "sls": [
+            "plural of {d_link|little magazine|little magazine}"
+        ],
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "as in {it}digests{/it}"
+                                ]
+                            ],
+                            "sim_list": [
+                                [{
+                                    "wd": "digests"
+                                }],
+                                [{
+                                        "wd": "annuals"
+                                    },
+                                    {
+                                        "wd": "bimonthlies"
+                                    },
+                                    {
+                                        "wd": "biweeklies"
+                                    },
+                                    {
+                                        "wd": "dailies"
+                                    },
+                                    {
+                                        "wd": "monthlies"
+                                    },
+                                    {
+                                        "wd": "quarterlies"
+                                    },
+                                    {
+                                        "wd": "semimonthlies"
+                                    },
+                                    {
+                                        "wd": "semiweeklies"
+                                    },
+                                    {
+                                        "wd": "triweeklies"
+                                    },
+                                    {
+                                        "wd": "weeklies"
+                                    },
+                                    {
+                                        "wd": "yearbooks"
+                                    }
+                                ],
+                                [{
+                                    "wd": "fanzines"
+                                }],
+                                [{
+                                        "wd": "books"
+                                    },
+                                    {
+                                        "wd": "bulletins"
+                                    },
+                                    {
+                                        "wd": "diurnals"
+                                    },
+                                    {
+                                        "wd": "gazettes"
+                                    },
+                                    {
+                                        "wd": "journals"
+                                    },
+                                    {
+                                        "wd": "magazines"
+                                    },
+                                    {
+                                        "wd": "mags"
+                                    },
+                                    {
+                                        "wd": "newspapers"
+                                    },
+                                    {
+                                        "wd": "organs"
+                                    },
+                                    {
+                                        "wd": "papers"
+                                    },
+                                    {
+                                        "wd": "periodicals"
+                                    },
+                                    {
+                                        "wd": "rags"
+                                    },
+                                    {
+                                        "wd": "reviews"
+                                    },
+                                    {
+                                        "wd": "serials"
+                                    },
+                                    {
+                                        "wd": "zines"
+                                    }
+                                ],
+                                [{
+                                        "wd": "pictorials"
+                                    },
+                                    {
+                                        "wd": "slicks"
+                                    }
+                                ],
+                                [{
+                                        "wd": "broadsides"
+                                    },
+                                    {
+                                        "wd": "editions"
+                                    },
+                                    {
+                                        "wd": "extras"
+                                    },
+                                    {
+                                        "wd": "sheets"
+                                    },
+                                    {
+                                        "wd": "supplements"
+                                    },
+                                    {
+                                        "wd": "tabloids"
+                                    },
+                                    {
+                                        "wd": "tabs"
+                                    }
+                                ],
+                                [{
+                                        "wd": "newsletters"
+                                    },
+                                    {
+                                        "wd": "newsmagazines"
+                                    },
+                                    {
+                                        "wd": "newsweeklies"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "as in digests"
+        ]
+    },
+    {
+        "meta": {
+            "id": "little people",
+            "uuid": "515e4905-f737-468c-9958-ae3cb95f7c54",
+            "src": "CTcompile",
+            "section": "alpha",
+            "stems": [
+                "little people"
+            ],
+            "syns": [
+                [
+                    "brownie",
+                    "dwarf",
+                    "elf",
+                    "faerie",
+                    "fairy",
+                    "fay",
+                    "gnome",
+                    "goblin",
+                    "gremlin",
+                    "hobgoblin",
+                    "kobold",
+                    "leprechaun",
+                    "pixie",
+                    "puck",
+                    "sprite",
+                    "troll",
+                    "banshee",
+                    "ghoul",
+                    "hag",
+                    "ogre",
+                    "imp",
+                    "kelpie",
+                    "nixie",
+                    "changeling"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "little people"
+        },
+        "fl": "noun",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "as in {it}troll{/it}, {it}elf{/it}"
+                                ]
+                            ],
+                            "sim_list": [
+                                [{
+                                        "wd": "brownie"
+                                    },
+                                    {
+                                        "wd": "dwarf"
+                                    },
+                                    {
+                                        "wd": "elf"
+                                    },
+                                    {
+                                        "wd": "faerie",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "faery"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "fairy"
+                                    },
+                                    {
+                                        "wd": "fay"
+                                    },
+                                    {
+                                        "wd": "gnome"
+                                    },
+                                    {
+                                        "wd": "goblin"
+                                    },
+                                    {
+                                        "wd": "gremlin"
+                                    },
+                                    {
+                                        "wd": "hobgoblin"
+                                    },
+                                    {
+                                        "wd": "kobold"
+                                    },
+                                    {
+                                        "wd": "leprechaun"
+                                    },
+                                    {
+                                        "wd": "pixie",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "pixy"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "puck"
+                                    },
+                                    {
+                                        "wd": "sprite"
+                                    },
+                                    {
+                                        "wd": "troll"
+                                    }
+                                ],
+                                [{
+                                        "wd": "banshee"
+                                    },
+                                    {
+                                        "wd": "ghoul"
+                                    },
+                                    {
+                                        "wd": "hag"
+                                    },
+                                    {
+                                        "wd": "ogre"
+                                    }
+                                ],
+                                [{
+                                    "wd": "imp"
+                                }],
+                                [{
+                                        "wd": "kelpie"
+                                    },
+                                    {
+                                        "wd": "nixie"
+                                    }
+                                ],
+                                [{
+                                    "wd": "changeling"
+                                }]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "as in troll, elf"
+        ]
+    }
+]

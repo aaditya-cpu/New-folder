@@ -243,7 +243,15 @@ function saurusCall(word) {
     };
 
     $.ajax(settings).done(function(response) {
-        console.log(response);
+        const dictData = response;
+        console.log(dictData);
+        dictData.forEach(element => {
+            console.log(element);
+            const dictDataShortDef = (element.shortdef);
+            dictDataShortDef.forEach(shortDef => {
+                console.log(shortDef);
+            })
+        });
     });
 }
 
