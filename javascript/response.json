@@ -1,0 +1,398 @@
+[{
+        "meta": {
+            "id": "troll",
+            "uuid": "6f67c31b-5a50-4d76-b24e-bc72f462d107",
+            "src": "coll_thes",
+            "section": "alpha",
+            "stems": [
+                "troll",
+                "trolls"
+            ],
+            "syns": [
+                [
+                    "brownie",
+                    "dwarf",
+                    "elf",
+                    "faerie",
+                    "fairy",
+                    "fay",
+                    "gnome",
+                    "goblin",
+                    "gremlin",
+                    "hobgoblin",
+                    "kobold",
+                    "leprechaun",
+                    "pixie",
+                    "puck",
+                    "sprite"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "troll"
+        },
+        "fl": "noun",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "an imaginary being usually having a small human form and magical powers "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "{ldquo}The Three Billy Goats Gruff,{rdquo} is the story of three goats trying to cross a bridge guarded by a nasty {it}troll{/it} living beneath it"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "brownie"
+                                    },
+                                    {
+                                        "wd": "dwarf"
+                                    },
+                                    {
+                                        "wd": "elf"
+                                    },
+                                    {
+                                        "wd": "faerie",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "faery"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "fairy"
+                                    },
+                                    {
+                                        "wd": "fay"
+                                    },
+                                    {
+                                        "wd": "gnome"
+                                    },
+                                    {
+                                        "wd": "goblin"
+                                    },
+                                    {
+                                        "wd": "gremlin"
+                                    },
+                                    {
+                                        "wd": "hobgoblin"
+                                    },
+                                    {
+                                        "wd": "kobold"
+                                    },
+                                    {
+                                        "wd": "leprechaun"
+                                    },
+                                    {
+                                        "wd": "pixie",
+                                        "wvrs": [{
+                                            "wvl": "also",
+                                            "wva": "pixy"
+                                        }]
+                                    },
+                                    {
+                                        "wd": "puck"
+                                    },
+                                    {
+                                        "wd": "sprite"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                    "wd": "little people"
+                                }],
+                                [{
+                                        "wd": "kelpie"
+                                    },
+                                    {
+                                        "wd": "nixie"
+                                    }
+                                ],
+                                [{
+                                    "wd": "changeling"
+                                }],
+                                [{
+                                    "wd": "imp"
+                                }],
+                                [{
+                                        "wd": "banshee"
+                                    },
+                                    {
+                                        "wd": "ghoul"
+                                    },
+                                    {
+                                        "wd": "hag"
+                                    },
+                                    {
+                                        "wd": "ogre"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "an imaginary being usually having a small human form and magical powers"
+        ]
+    },
+    {
+        "meta": {
+            "id": "troll",
+            "uuid": "e05af054-9f1c-4349-afc2-6dc3cb524287",
+            "src": "coll_thes",
+            "section": "alpha",
+            "target": {
+                "tuuid": "c5c1fb35-134b-47fa-8cc3-881fd96ec5f1",
+                "tsrc": "collegiate"
+            },
+            "stems": [
+                "troll",
+                "trolled",
+                "troller",
+                "trollers",
+                "trolling",
+                "trollings",
+                "trolls"
+            ],
+            "syns": [
+                [
+                    "comb",
+                    "dig (through)",
+                    "dredge",
+                    "hunt (through)",
+                    "rake",
+                    "ransack",
+                    "rifle",
+                    "rummage",
+                    "scour",
+                    "search",
+                    "sort (through)"
+                ]
+            ],
+            "ants": [],
+            "offensive": false
+        },
+        "hwi": {
+            "hw": "troll"
+        },
+        "fl": "verb",
+        "def": [{
+            "sseq": [
+                [
+                    [
+                        "sense",
+                        {
+                            "dt": [
+                                [
+                                    "text",
+                                    "to look through (as a place) carefully or thoroughly in an effort to find or discover something "
+                                ],
+                                [
+                                    "vis", [{
+                                        "t": "the owner of the bed-and-breakfast often {it}trolls{/it} antique stores for furniture and knickknacks"
+                                    }]
+                                ]
+                            ],
+                            "syn_list": [
+                                [{
+                                        "wd": "comb"
+                                    },
+                                    {
+                                        "wd": "dig (through)"
+                                    },
+                                    {
+                                        "wd": "dredge"
+                                    },
+                                    {
+                                        "wd": "hunt (through)"
+                                    },
+                                    {
+                                        "wd": "rake"
+                                    },
+                                    {
+                                        "wd": "ransack"
+                                    },
+                                    {
+                                        "wd": "rifle"
+                                    },
+                                    {
+                                        "wd": "rummage"
+                                    },
+                                    {
+                                        "wd": "scour"
+                                    },
+                                    {
+                                        "wd": "search"
+                                    },
+                                    {
+                                        "wd": "sort (through)"
+                                    }
+                                ]
+                            ],
+                            "rel_list": [
+                                [{
+                                        "wd": "frisk"
+                                    },
+                                    {
+                                        "wd": "pat down"
+                                    },
+                                    {
+                                        "wd": "shake down"
+                                    }
+                                ],
+                                [{
+                                        "wd": "audit"
+                                    },
+                                    {
+                                        "wd": "check (out)"
+                                    },
+                                    {
+                                        "wd": "examine"
+                                    },
+                                    {
+                                        "wd": "inspect"
+                                    },
+                                    {
+                                        "wd": "investigate"
+                                    },
+                                    {
+                                        "wd": "review"
+                                    },
+                                    {
+                                        "wd": "scan"
+                                    },
+                                    {
+                                        "wd": "scrutinize"
+                                    },
+                                    {
+                                        "wd": "survey"
+                                    }
+                                ],
+                                [{
+                                        "wd": "ascertain"
+                                    },
+                                    {
+                                        "wd": "descry"
+                                    },
+                                    {
+                                        "wd": "detect"
+                                    },
+                                    {
+                                        "wd": "determine"
+                                    },
+                                    {
+                                        "wd": "discover"
+                                    },
+                                    {
+                                        "wd": "ferret (out)"
+                                    },
+                                    {
+                                        "wd": "find"
+                                    },
+                                    {
+                                        "wd": "find out"
+                                    },
+                                    {
+                                        "wd": "get"
+                                    },
+                                    {
+                                        "wd": "hit (on or upon)"
+                                    },
+                                    {
+                                        "wd": "learn"
+                                    },
+                                    {
+                                        "wd": "locate"
+                                    },
+                                    {
+                                        "wd": "run down"
+                                    },
+                                    {
+                                        "wd": "scare up"
+                                    },
+                                    {
+                                        "wd": "track (down)"
+                                    }
+                                ],
+                                [{
+                                        "wd": "grub (about)"
+                                    },
+                                    {
+                                        "wd": "poke (around)"
+                                    }
+                                ],
+                                [{
+                                        "wd": "explore"
+                                    },
+                                    {
+                                        "wd": "probe"
+                                    },
+                                    {
+                                        "wd": "prospect"
+                                    },
+                                    {
+                                        "wd": "skirmish"
+                                    },
+                                    {
+                                        "wd": "snoop"
+                                    }
+                                ],
+                                [{
+                                        "wd": "browse"
+                                    },
+                                    {
+                                        "wd": "glance (over)"
+                                    },
+                                    {
+                                        "wd": "look over"
+                                    }
+                                ],
+                                [{
+                                        "wd": "peruse"
+                                    },
+                                    {
+                                        "wd": "study"
+                                    }
+                                ]
+                            ],
+                            "near_list": [
+                                [{
+                                    "wd": "hide"
+                                }],
+                                [{
+                                        "wd": "abandon"
+                                    },
+                                    {
+                                        "wd": "lose"
+                                    }
+                                ],
+                                [{
+                                        "wd": "ignore"
+                                    },
+                                    {
+                                        "wd": "neglect"
+                                    }
+                                ]
+                            ]
+                        }
+                    ]
+                ]
+            ]
+        }],
+        "shortdef": [
+            "to look through (as a place) carefully or thoroughly in an effort to find or discover something"
+        ]
+    }
+]

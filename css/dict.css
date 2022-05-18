@@ -168,3 +168,40 @@ body {
     font-size: medium;
     font-weight: var(--medium);
 }
+
+.dictResDiv {
+    background-color: var(--opal);
+    /* opacity: .7; */
+    margin: var(--mar);
+    padding: var(--pad);
+}
+
+.typeOfRes {
+    background-color: var(--green-sheen);
+    color: var(--lemon-meringue);
+    font-weight: 600;
+    padding: var(--pad);
+}
+
+.dictResDef {
+    background-color: var(--lemon-meringue);
+    color: var(--green-sheen);
+    font-weight: 500;
+    padding: var(--pad);
+}
+
+.typeOfRes:hover {
+    background-color: var(--lemon-meringue);
+    color: var(--green-sheen);
+    border-radius: 5px;
+    font-weight: 600;
+    padding: var(--pad);
+}
+
+.dictResDef:hover {
+    padding: var(--pad);
+    background-color: var(--green-sheen);
+    color: var(--lemon-meringue);
+    border-radius: 5px;
+    font-weight: 500;
+}

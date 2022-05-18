@@ -14,6 +14,8 @@ let tempData;
 let dadJoke = " ";
 let cityInp;
 let engWord;
+const resDictIndiBox = document.querySelector('.resDictIndiBox');
+
 $(document).ready(function() {
     $('.headTrigCity').hide();
     $(".showTemp").hide();
@@ -21,9 +23,17 @@ $(document).ready(function() {
     geneAPI();
     getLocation();
     getWeat();
+    $(".resDictBoxTitleBox").hide();
 });
 
-// 0.2 Rand generator 
+//0.15createElement
+function createDictEle(parent, eletype, addClass) {
+    const ele = document.createElement(eletype);
+    parent.append(ele);
+    ele.classList.add(addClass);
+    return ele;
+}
+// 0.20 Rand generator 
 // 0 to get a rand for effects 
 // 9 to get string of unique id
 
@@ -121,6 +131,7 @@ $("#traceTrig").click(function() {;
 
 
 });
+
 $("#dictTrig").click(function() {
     const wordEng = $('#englishInput').val();
     $('.translateBox').hide(1500);
@@ -130,6 +141,10 @@ $("#dictTrig").click(function() {
         engWord = wordEng;
         saurusCall(engWord);
         ret.dictEngSearch = engWord;
+        $(".resDictBoxTitleBox").replaceWith("<<h2> Results for " + engWord + "</h2>");
+        $(".resDictBoxTitleBox").show(800);
+    } else {
+        alert("Enter a valid string");
     }
 
 });
@@ -244,12 +259,27 @@ function saurusCall(word) {
 
     $.ajax(settings).done(function(response) {
         const dictData = response;
+        $(".resDictIndiBox").empty();
         console.log(dictData);
         dictData.forEach(element => {
+            const dictResDiv = createEle(resDictIndiBox, 'div', 'dictResDiv');
+
             console.log(element);
-            const dictDataShortDef = (element.shortdef);
+            let fl = element.fl;
+            // console.log(fl);
+            let partOfSpeech = createEle(dictResDiv, 'p', 'typeOfRes')
+            partOfSpeech.textContent = fl;
+            // let sls = element.sls;
+            // console.log(sls);
+
+            let dictDataShortDef = (element.shortdef);
             dictDataShortDef.forEach(shortDef => {
-                console.log(shortDef);
+
+                const dictResDef = createEle(dictResDiv, 'p', 'dictResDef');
+                dictResDef.textContent = shortDef;
+
+                // console.log(shortDef);
+
             })
         });
     });
@@ -264,3 +294,13 @@ function apiURLs(params) {
 
 }
 // 4. Display elements
+const dictResDiv = createEle(resDictIndiBox, 'div', 'dictRes');
+
+
+function createEle(parent, elType, classAdd) {
+    const ele = document.createElement(elType);
+    parent.append(ele);
+    ele.classList.add(classAdd);
+    return ele;
+
+}
