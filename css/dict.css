@@ -15,6 +15,11 @@
     --medium: 600;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 body {
     background-color: var(--rich-black-fogra);
 }
@@ -167,6 +172,57 @@ body {
     color: var(--champagne);
     font-size: medium;
     font-weight: var(--medium);
+}
+
+.resDictBoxResList {
+    width: inherit;
+}
+
+.resDictIndiBox {
+    width: 100%;
+}
+
+.synResDivIndi {
+    /* display: block; */
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    background-color: var(--rich-black-fogra);
+    color: var(--gold-crayola);
+    margin: 5px 5px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.synResDivIndi:hover {
+    margin: 3 auto;
+    padding: 10px;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: var(--rich-black-fogra);
+    background-color: var(--gold-crayola);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.synResDiv {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
 }
 
 .dictResDiv {

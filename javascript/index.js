@@ -141,7 +141,9 @@ $("#dictTrig").click(function() {
         engWord = wordEng;
         saurusCall(engWord);
         ret.dictEngSearch = engWord;
-        $(".resDictBoxTitleBox").replaceWith("<<h2> Results for " + engWord + "</h2>");
+
+        $(".resDictBoxTitleBox").empty();
+        $(".resDictBoxTitleBox").append("<h2> Results for " + engWord + "</h2>");
         $(".resDictBoxTitleBox").show(800);
     } else {
         alert("Enter a valid string");
@@ -259,6 +261,7 @@ function saurusCall(word) {
 
     $.ajax(settings).done(function(response) {
         const dictData = response;
+        ret.dictData = dictData
         $(".resDictIndiBox").empty();
         console.log(dictData);
         dictData.forEach(element => {
@@ -271,6 +274,20 @@ function saurusCall(word) {
             partOfSpeech.textContent = fl;
             // let sls = element.sls;
             // console.log(sls);
+            let syns = (element.meta.syns);
+
+            const dictSynRes = createEle(dictResDiv, 'div', 'synResDiv');
+            syns.forEach(syn => {
+                for (let index = 0; index < syn.length; index++) {
+                    const synI = syn[index];
+                    console.log(synI);
+                    const dictSynResIndi = createEle(dictSynRes, 'div', 'synResDivIndi');
+                    const synText = createEle(dictSynResIndi, 'p', 'synRes');
+                    synText.textContent = synI;
+                }
+                console.log(syn);
+
+            })
 
             let dictDataShortDef = (element.shortdef);
             dictDataShortDef.forEach(shortDef => {
