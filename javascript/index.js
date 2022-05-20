@@ -169,7 +169,7 @@ $(".hideTemp").click(function() {
 });
 $(".showTemp").click(function() {
     $(".weatherBoxInner").show(1500);
-    $(".hideTemp").hide(1200);
+    $(".hideTemp").show(1200);
 
 });
 $(".citySub").click(function() {
@@ -275,6 +275,7 @@ function saurusCall(word) {
             // let sls = element.sls;
             // console.log(sls);
             let syns = (element.meta.syns);
+
 
             const dictSynRes = createEle(dictResDiv, 'div', 'synResDiv');
             syns.forEach(syn => {
